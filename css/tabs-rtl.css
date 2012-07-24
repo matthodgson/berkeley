@@ -1,0 +1,29 @@
+/**
+ * @file
+ * RTL companion for the tabs.css file.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/social-link-icons\/\*\.png}line{font-family:\0000398}}
+.social-link-icons-sprite {
+  background: url('../images/social-link-icons-sa0e1f4b582.png') no-repeat;
+}
+
+@font-face {
+  font-family: "ucberkeleyos";
+  src: url('../fonts/ucberkeleyos.woff') format('woff'), url('../fonts/ucberkeleyos.eot') format('embedded-opentype'), url('../fonts/ucberkeleyos.ttf') format('truetype'), url('../fonts/ucberkeleyos.svg') format('svg');
+}
+
+@font-face {
+  font-family: "ucberkeleyosbold";
+  src: url('../fonts/ucberkeleyosbold.woff') format('woff'), url('../fonts/ucberkeleyosbold.eot') format('embedded-opentype'), url('../fonts/ucberkeleyosbold.ttf') format('truetype'), url('../fonts/ucberkeleyosbold.svg') format('svg');
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/tabs-rtl\.scss}line{font-family:\0000311}}
+ul.primary li,
+ul.secondary li {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/tabs-rtl\.scss}line{font-family:\0000317}}
+ul.primary li {
+  margin: 0.5em 3px 0 0;
+}

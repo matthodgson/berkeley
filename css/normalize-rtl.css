@@ -1,0 +1,51 @@
+/* normalize-rtl.css - RTL language extension of normalize.scss. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/social-link-icons\/\*\.png}line{font-family:\0000398}}
+.social-link-icons-sprite {
+  background: url('../images/social-link-icons-sa0e1f4b582.png') no-repeat;
+}
+
+@font-face {
+  font-family: "ucberkeleyos";
+  src: url('../fonts/ucberkeleyos.woff') format('woff'), url('../fonts/ucberkeleyos.eot') format('embedded-opentype'), url('../fonts/ucberkeleyos.ttf') format('truetype'), url('../fonts/ucberkeleyos.svg') format('svg');
+}
+
+@font-face {
+  font-family: "ucberkeleyosbold";
+  src: url('../fonts/ucberkeleyosbold.woff') format('woff'), url('../fonts/ucberkeleyosbold.eot') format('embedded-opentype'), url('../fonts/ucberkeleyosbold.ttf') format('truetype'), url('../fonts/ucberkeleyosbold.svg') format('svg');
+}
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+/*
+ * Addresses margins set differently in IE6/7
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/normalize-rtl\.scss}line{font-family:\0000314}}
+dd {
+  margin: 0 30px 0 0;
+}
+
+/*
+ * Addresses paddings set differently in IE6/7
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/normalize-rtl\.scss}line{font-family:\0000325}}
+menu,
+ol,
+ul,
+.item-list ul {
+  padding: 0 30px 0 0;
+}
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+/*
+ * 3. Corrects alignment displayed oddly in IE6/7
+ */
+/* =============================================================================
+   Tables
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/normalize-rtl\.scss}line{font-family:\0000348}}
+th {
+  text-align: right;
+}
