@@ -1,4 +1,5 @@
-7.x
+Readme 7.x
+===========
 
 berkeley_theme
 ==============
