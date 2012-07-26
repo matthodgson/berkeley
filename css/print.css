@@ -4,7 +4,7 @@
  *
  * We provide some sane print styling for Drupal using Zen's layout method.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/social-link-icons\/\*\.png}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/social-link-icons\/\*\.png}line{font-family:\0000398}}
 .social-link-icons-sprite {
   background: url('../images/social-link-icons-sa0e1f4b582.png') no-repeat;
 }
@@ -20,39 +20,39 @@
 }
 
 @media print {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/print\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/print\.scss}line{font-family:\0000314}}
   a:link,
   a:visited {
     /* underline all links */
     text-decoration: underline !important;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/print\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/print\.scss}line{font-family:\0000317}}
   #site-name a:link, #site-name
   a:visited {
     /* Don't underline header */
     text-decoration: none !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/print\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/print\.scss}line{font-family:\0000323}}
   #content a[href]:after {
     /* Add visible URL after links. */
     content: " (" attr(href) ")";
     font-weight: normal;
     font-size: 16px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/print\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/print\.scss}line{font-family:\0000330}}
   #content a[href^="javascript:"]:after,
   #content a[href^="#"]:after {
     /* Only display useful links. */
     content: "";
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/print\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/print\.scss}line{font-family:\0000334}}
   #content abbr[title]:after {
     /* Add visible title after abbreviations. */
     content: " (" attr(title) ")";
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/print\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/print\.scss}line{font-family:\0000339}}
   #content {
     /* Un-float the content */
     float: none !important;
@@ -61,7 +61,7 @@
     padding: 0 !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/print\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/print\.scss}line{font-family:\0000349}}
   body,
   #page,
   #main,
@@ -72,7 +72,7 @@
     background-image: none !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/print\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/print\.scss}line{font-family:\0000368}}
   #skip-link,
   #toolbar,
   #navigation,

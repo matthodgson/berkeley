@@ -4,7 +4,7 @@
  *
  * Add wireframes to the basic layout elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/social-link-icons\/\*\.png}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/social-link-icons\/\*\.png}line{font-family:\0000398}}
 .social-link-icons-sprite {
   background: url('../images/social-link-icons-sa0e1f4b582.png') no-repeat;
 }
@@ -19,7 +19,7 @@
   src: url('../fonts/ucberkeleyosbold.woff') format('woff'), url('../fonts/ucberkeleyosbold.eot') format('embedded-opentype'), url('../fonts/ucberkeleyosbold.ttf') format('truetype'), url('../fonts/ucberkeleyosbold.svg') format('svg');
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/wireframes\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/wireframes\.scss}line{font-family:\0000319}}
 .with-wireframes #header,
 .with-wireframes #main,
 .with-wireframes #content,

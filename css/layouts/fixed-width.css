@@ -8,7 +8,7 @@
  *
  * This layout uses the Zen Grids plugin for Compass: http://zengrids.com
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/social-link-icons\/\*\.png}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/social-link-icons\/\*\.png}line{font-family:\0000398}}
 .social-link-icons-sprite {
   background: url('../../images/social-link-icons-sa0e1f4b582.png') no-repeat;
 }
@@ -26,7 +26,7 @@
 /*
  * Center the page.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/layouts\/fixed-width\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/fixed-width\.scss}line{font-family:\0000343}}
 #page,
 .region-bottom {
   /* If you want to make the page a fixed width and centered in the viewport,
@@ -39,7 +39,7 @@
 /*
  * Apply the shared properties of grid items in a single, efficient ruleset.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/layouts\/fixed-width\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/fixed-width\.scss}line{font-family:\0000361}}
 #header,
 #content,
 #navigation,
@@ -55,7 +55,7 @@
 /*
  * Containers for grid items and flow items.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000352}}
 #header:before, #header:after,
 #main:before,
 #main:after,
@@ -64,7 +64,7 @@
   content: "";
   display: table;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000356}}
 #header:after,
 #main:after,
 #footer:after {
@@ -74,14 +74,14 @@
 /*
  * Navigation bar
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/layouts\/fixed-width\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/fixed-width\.scss}line{font-family:\0000379}}
 #main {
   padding-top: 3em;
   /* Move all the children of #main down to make room. */
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/layouts\/fixed-width\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/fixed-width\.scss}line{font-family:\0000383}}
 #navigation {
   position: absolute;
   top: 0;
@@ -93,7 +93,7 @@
 /*
  * The layout when there is only one sidebar, the left one.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/layouts\/fixed-width\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/fixed-width\.scss}line{font-family:\0000395}}
 .sidebar-first #content {
   /* Span 4 columns, starting in 2nd column from left. */
   float: left;
@@ -101,7 +101,7 @@
   margin-left: 196px;
   margin-right: -980px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/layouts\/fixed-width\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/fixed-width\.scss}line{font-family:\0000399}}
 .sidebar-first .region-sidebar-first {
   /* Span 1 column, starting in 1st column from left. */
   float: left;
@@ -113,7 +113,7 @@
 /*
  * The layout when there is only one sidebar, the right one.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/layouts\/fixed-width\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/fixed-width\.scss}line{font-family:\00003109}}
 .sidebar-second #content {
   /* Span 4 columns, starting in 1st column from left. */
   float: left;
@@ -121,7 +121,7 @@
   margin-left: 0px;
   margin-right: -784px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/layouts\/fixed-width\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/fixed-width\.scss}line{font-family:\00003113}}
 .sidebar-second .region-sidebar-second {
   /* Span 1 column, starting in 5th column from left. */
   float: left;
@@ -133,7 +133,7 @@
 /*
  * The layout when there are two sidebars.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/layouts\/fixed-width\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/fixed-width\.scss}line{font-family:\00003123}}
 .two-sidebars #content {
   /* Span 3 columns, starting in 2nd column from left. */
   float: left;
@@ -141,7 +141,7 @@
   margin-left: 196px;
   margin-right: -784px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/layouts\/fixed-width\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/fixed-width\.scss}line{font-family:\00003127}}
 .two-sidebars .region-sidebar-first {
   /* Span 1 column, starting in 1st column from left. */
   float: left;
@@ -149,7 +149,7 @@
   margin-left: 0px;
   margin-right: -196px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/layouts\/fixed-width\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/fixed-width\.scss}line{font-family:\00003131}}
 .two-sidebars .region-sidebar-second {
   /* Span 1 column, starting in 5th column from left. */
   float: left;

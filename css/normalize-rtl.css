@@ -1,5 +1,5 @@
 /* normalize-rtl.css - RTL language extension of normalize.scss. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/social-link-icons\/\*\.png}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/social-link-icons\/\*\.png}line{font-family:\0000398}}
 .social-link-icons-sprite {
   background: url('../images/social-link-icons-sa0e1f4b582.png') no-repeat;
 }
@@ -20,7 +20,7 @@
 /*
  * Addresses margins set differently in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/normalize-rtl\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize-rtl\.scss}line{font-family:\0000314}}
 dd {
   margin: 0 30px 0 0;
 }
@@ -28,7 +28,7 @@ dd {
 /*
  * Addresses paddings set differently in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/normalize-rtl\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize-rtl\.scss}line{font-family:\0000325}}
 menu,
 ol,
 ul,
@@ -45,7 +45,7 @@ ul,
 /* =============================================================================
    Tables
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/normalize-rtl\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize-rtl\.scss}line{font-family:\0000348}}
 th {
   text-align: right;
 }

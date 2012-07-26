@@ -234,6 +234,12 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
     '#title' => 'If Javascript is disabled, link to:',
     '#default_value' => theme_get_setting('quicklinks_link'),
     '#description'   => t('Enter the node you would like to link to if the user has Javascript disabled. Example: node/1'),
+    '#states'        => array(
+      'visible'      => array(
+        // Display only when "Include Quick Links" is checked. See http://api.drupal.org/api/examples/form_example%21form_example_states.inc/function/form_example_states_form/7
+        ':input[name="include_quick_links"]' => array('checked' => TRUE),
+      ),
+    ),
   );
 
   // Define the social media links
@@ -242,8 +248,16 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
     '#title' => t('Social Media Links in Footer'),
     '#collapsible' => TRUE,
     '#collapsed' => FALSE,
-    '#description'   => t('If you would like to include links to your social media pages, enter
-                           the appropriate information in the optional fields below.'),
+    '#description'   => t('If you would like to include links to your social media pages,
+                           check the following box and then enter the appropriate information
+                           in the optional fields below.'),
+  );
+
+  //Social media option
+  $form['berkeley_settings']['social_media']['include_social_media'] = array(
+    '#type'          => 'checkbox',
+    '#title'         => t('Include Social Media Links'),
+    '#default_value' => theme_get_setting('include_social_media'),
   );
 
   // Define the facebook link
@@ -252,6 +266,12 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
     '#title' => 'Facebook',
     '#default_value' => theme_get_setting('facebook_link'),
     '#description'   => t('Enter your Facebook username.'),
+    '#states'        => array(
+      'visible'      => array(
+        // Display only when "Include Social Media Links" is checked. See http://api.drupal.org/api/examples/form_example%21form_example_states.inc/function/form_example_states_form/7
+        ':input[name="include_social_media"]' => array('checked' => TRUE),
+      ),
+    ),
   );
 
   // Define the twitter link
@@ -260,6 +280,12 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
     '#title' => 'Twitter',
     '#default_value' => theme_get_setting('twitter_link'),
     '#description'   => t('Enter your Twitter username.'),
+    '#states'        => array(
+      'visible'      => array(
+        // Display only when "Include Social Media Links" is checked. See http://api.drupal.org/api/examples/form_example%21form_example_states.inc/function/form_example_states_form/7
+        ':input[name="include_social_media"]' => array('checked' => TRUE),
+      ),
+    ),
   );
 
   // Define the linkedin link
@@ -268,6 +294,12 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
     '#title' => 'LinkedIn',
     '#default_value' => theme_get_setting('linkedin_link'),
     '#description'   => t('Enter your LinkedIn URL. Example: http://www.linkedin.com/company/uc-berkeley'),
+    '#states'        => array(
+      'visible'      => array(
+        // Display only when "Include Social Media Links" is checked. See http://api.drupal.org/api/examples/form_example%21form_example_states.inc/function/form_example_states_form/7
+        ':input[name="include_social_media"]' => array('checked' => TRUE),
+      ),
+    ),
   );
 
   // Define the foursquare link
@@ -276,6 +308,12 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
     '#title' => 'Foursquare',
     '#default_value' => theme_get_setting('foursquare_link'),
     '#description'   => t('Enter your Foursquare URL. Example: https://foursquare.com/cal'),
+    '#states'        => array(
+      'visible'      => array(
+        // Display only when "Include Social Media Links" is checked. See http://api.drupal.org/api/examples/form_example%21form_example_states.inc/function/form_example_states_form/7
+        ':input[name="include_social_media"]' => array('checked' => TRUE),
+      ),
+    ),
   );
 
   // Define the youtube link
@@ -284,6 +322,12 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
     '#title' => 'YouTube',
     '#default_value' => theme_get_setting('youtube_link'),
     '#description'   => t('Enter your YouTube Username.'),
+    '#states'        => array(
+      'visible'      => array(
+        // Display only when "Include Social Media Links" is checked. See http://api.drupal.org/api/examples/form_example%21form_example_states.inc/function/form_example_states_form/7
+        ':input[name="include_social_media"]' => array('checked' => TRUE),
+      ),
+    ),
   );
 
   // Define the google+ link
@@ -292,6 +336,12 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
     '#title' => 'Google+',
     '#default_value' => theme_get_setting('googleplus_link'),
     '#description'   => t('Enter your Google+ User ID Number.'),
+    '#states'        => array(
+      'visible'      => array(
+        // Display only when "Include Social Media Links" is checked. See http://api.drupal.org/api/examples/form_example%21form_example_states.inc/function/form_example_states_form/7
+        ':input[name="include_social_media"]' => array('checked' => TRUE),
+      ),
+    ),
   );
 
   // Define the google+ link
@@ -300,6 +350,12 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
     '#title' => 'Flickr',
     '#default_value' => theme_get_setting('flickr_link'),
     '#description'   => t('Enter your Flickr URL. Example: http://www.flickr.com/photos/berkeleylab'),
+    '#states'        => array(
+      'visible'      => array(
+        // Display only when "Include Social Media Links" is checked. See http://api.drupal.org/api/examples/form_example%21form_example_states.inc/function/form_example_states_form/7
+        ':input[name="include_social_media"]' => array('checked' => TRUE),
+      ),
+    ),
   );
 
   // Define the rss link
@@ -308,6 +364,12 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
     '#title' => 'Rss',
     '#default_value' => theme_get_setting('rss_link'),
     '#description'   => t('Enter the full path to your primary RSS feed. Example: http://events.berkeley.edu/index.php/rss/sn/pubaff/type/day/tab/all_events.html'),
+    '#states'        => array(
+      'visible'      => array(
+        // Display only when "Include Social Media Links" is checked. See http://api.drupal.org/api/examples/form_example%21form_example_states.inc/function/form_example_states_form/7
+        ':input[name="include_social_media"]' => array('checked' => TRUE),
+      ),
+    ),
   );
 
   //Optional AddThis widget

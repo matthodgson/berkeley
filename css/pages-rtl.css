@@ -2,7 +2,7 @@
  * @file
  * RTL companion for the pages.css file.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/social-link-icons\/\*\.png}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/social-link-icons\/\*\.png}line{font-family:\0000398}}
 .social-link-icons-sprite {
   background: url('../images/social-link-icons-sa0e1f4b582.png') no-repeat;
 }
@@ -20,7 +20,7 @@
 /*
  * Header
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/pages-rtl\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages-rtl\.scss}line{font-family:\0000313}}
 #logo {
   /* Wrapping link for logo */
   float: right;
@@ -29,7 +29,7 @@
 /*
  * Content
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/pages-rtl\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages-rtl\.scss}line{font-family:\0000321}}
 ul.inline li {
   /* List of links */
   display: inline-block;
@@ -37,7 +37,7 @@ ul.inline li {
   padding: 0 0 0 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/Sites\/pantheon_v2\/ucbcts-test-d7\/sites\/all\/themes\/berkeley\/sass\/pages-rtl\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages-rtl\.scss}line{font-family:\0000325}}
 span.field-label {
   /* The inline field label used by the Fences.module */
   padding: 0 0 0 1em;

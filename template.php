@@ -39,22 +39,22 @@
     if (module_exists('nice_menus')) {
 
       $form['berkeley_nice_menus'] = array(
-        '#type' => 'fieldset',
-        '#title' => t('Berkeley with Nice Menus'),
-        '#collapsible' => TRUE,
-        '#collapsed' => FALSE,
+        '#type'         => 'fieldset',
+        '#title'        => t('Berkeley with Nice Menus'),
+        '#collapsible'  => TRUE,
+        '#collapsed'    => FALSE,
       );
 
       $form['berkeley_nice_menus']['main_menu_nice_menus'] = array(
-      '#type'          => 'checkbox',
-      '#title'         => t('Use Drop-Down Menus for Main Menu'),
-      '#default_value' => theme_get_setting('main_menu_nice_menus'),
-      '#description'   => t('Check this box if you want to use drop-down menus for your main menu.
+      '#type'           => 'checkbox',
+      '#title'          => t('Use Drop-Down Menus for Main Menu'),
+      '#default_value'  => theme_get_setting('main_menu_nice_menus'),
+      '#description'    => t('Check this box if you want to use drop-down menus for your main menu.
                           This requires the Nice Menus module (http://drupal.org/project/nice_menus).
                           Note: Typically, drop-down menus work best if you keep them simple (e.g., avoid many levels).
                           See <a href="@href"> Drop-Down Menus: Use Sparingly</a>.',
                           array('@href' => 'http://www.useit.com/alertbox/20001112.html',)),
-      '#weight'        => 50,
+      '#weight'         => 50,
       );
 
 
@@ -64,11 +64,21 @@
 
       $form['berkeley_nice_menus']['nice_menus_custom_css']['#title'] =
         t('Path to custom CSS file for Nice Menus');
+
       $form['berkeley_nice_menus']['nice_menus_custom_css']['#description'] =
         t('The Berkeley theme includes default styling for Nice Menus.
         To override the default Nice Menus CSS layout, enter the path to your custom CSS file.
         It should be a relative path from the root of your Drupal install (e.g. sites/all/themes/example/mymenu.css).');
+
       $form['berkeley_nice_menus']['nice_menus_custom_css']['#weight'] = 100;
+
+      $form['berkeley_nice_menus']['nice_menus_custom_css']['#states'] = array(
+        'visible'      => array(
+          // Display only when "Use Drop-Down Menus for Main Menu" is checked. See http://api.drupal.org/api/examples/form_example%21form_example_states.inc/function/form_example_states_form/7
+          ':input[name="main_menu_nice_menus"]' => array('checked' => TRUE),
+        ),
+      );
+
     }
 
   }
@@ -210,6 +220,8 @@ function berkeley_preprocess_page(&$variables, $hook) {
     $rss_link = theme_get_setting('rss_link');
     $social_links[] = l('Rss', $rss_link, array('attributes' => array('class' => array('rss-link'))));
   }
+
+  $variables['include_social'] = theme_get_setting('include_social_media') ? TRUE : FALSE;
 
   $variables['social_links'] = theme('item_list', array('items' => $social_links));
 

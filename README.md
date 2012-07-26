@@ -5,7 +5,15 @@ This is the Berkeley theme, developed by
 IST Drupal <ist-drupal@lists.berkeley.edu> at UC Berkeley
 for use with websites based on the Berkeley distribution.
 
-*** IMPORTANT NOTE ***
+*** REQUIRED DEPENDENCIES ***
+
+The Berkeley theme requires Zen 7.x-5.x, available at http://drupal.org/project/zen.
+
+If you want to use the drop-down menu functionality, you must download the Nice Menus
+module, available at http://drupal.org/project/nice_menus. You can then enable this
+functionality at appearance/settings/berkeley.
+
+*** Important Theming Notes ***
 *
 * In Drupal 7, the theme system caches which template files and which theme
 * functions should be called. This means that if you add a new theme,

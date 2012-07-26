@@ -334,6 +334,8 @@ li a.active {
  #footer {
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
 
+  @include adjust-font-size-to(14px);
+
   .block {
     margin-bottom: 0;
   }
@@ -344,7 +346,7 @@ li a.active {
   }
 
   ul.links, /* Footer menu links */
-    ul.menu { /* Menu block links */
+  ul.menu { /* Menu block links */
     margin: 0;
     padding: 0;
     text-align: left; /* LTR */
@@ -357,19 +359,33 @@ li a.active {
     }
    }
 
+  span a { /* No padding for links within spans, e.g., "Powered by Drupal") */
+    padding: 0;
+  }
+
   a {
     color: $berkeley-med-grey;
     text-decoration: none;
-    padding: 0 1em 0 0;
-    border-right: $border-solid-med-grey;
-    @include adjust-font-size-to(14px);
+    padding: 0 0 0 .8em;
+
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: underline;
+    }
 
   }
 
   ul {
-    li.last a {
+    li {
+      border-left: $border-solid-med-grey;
+    }
+
+    li.first {
       border: none;
-      padding: 0;
+      a {
+        padding: 0;
+      }
     }
   }
 

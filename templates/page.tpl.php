@@ -182,7 +182,7 @@
       </aside><!-- /.sidebars -->
     <?php endif; ?>
 
-    <?php if ($addthis): ?>
+    <?php if (theme_get_setting('sharing_addthis') && $addthis): ?>
       <div id="add-this">
         <?php print $addthis; ?>
       </div>
@@ -193,6 +193,7 @@
   </div><!-- /#page -->
 
   <div id="bottomwrapper">
+    <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third'] || $page['footer_fourth'] || $page['footer'] || $include_social): ?>
     <div id="footerwrapper" class="clearfix">
 
       <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third'] || $page['footer_fourth']): ?>
@@ -212,11 +213,11 @@
         </div>
       <?php endif; ?><!-- /.footer-menus -->
 
-    <?php if ($page['footer'] || $social_links) : ?>
+    <?php if ($page['footer'] || $include_social) : ?>
       <div id="footer-social" class="clearfix">
         <?php print render($page['footer']); ?>
 
-        <?php if ($social_links): ?>
+        <?php if ($include_social && $social_links): ?>
           <div id="social-links">
             <h3 class="follow-us"><?php print t('Follow us on:'); ?></h3>
             <div class="social-link-icons">
@@ -226,9 +227,11 @@
         <?php endif; ?>
 
       </div>
+
     <?php endif; ?><!-- /#footer-social -->
 
     </div>
+    <?php endif; ?><!-- /#footer-wrapper -->
 
     <div id="seal-copyright" class="clearfix">
       <div id="ucbseal">

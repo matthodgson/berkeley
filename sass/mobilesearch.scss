@@ -65,7 +65,8 @@
       text-align: center;
       text-transform: uppercase;
       a {
-        font-size: .85em;
+        font-size: 1em;
+        padding: 5px 0;
         width: 100%;
         display: block;
         color: #FFF;
@@ -211,7 +212,7 @@
   #quick-links-widget {
     position: absolute;
     right: 50px;
-    top: 38px;
+    top: 49px;
     z-index: 50;
     border: none;
 

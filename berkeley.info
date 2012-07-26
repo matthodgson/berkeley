@@ -128,6 +128,7 @@ features[] = secondary_menu
 
 ; Set the default values of settings on the theme-settings.php form.
 
+settings[default_logo]             = 0
 settings[zen_breadcrumb]           = yes
 settings[zen_breadcrumb_separator] = ' › '
 settings[zen_breadcrumb_home]      = 1
@@ -144,9 +145,10 @@ settings[berkeley_header_image] = header-sathergate-1.png
 settings[berkeley_base_font_family] = Helvetica Neue
 settings[berkeley_font_size] = 100%
 settings[berkeley_heading_font_family] = Helvetica Neue
-settings[include_quick_links]      = 1
+settings[include_quick_links]      = 0
+settings[include_social_media]     = 0
 ;settings[berkeley_lowercase_headings] = 0
-settings[sharing_addthis]          = 1
+settings[sharing_addthis]          = 0
 settings[main_menu_nice_menus]     = 0
 
 ; To make this sub-theme an admin theme with shortcut links next to titles,

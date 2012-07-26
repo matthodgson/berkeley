@@ -354,7 +354,7 @@ span.field-label { /* The inline field label used by the Fences module */
 }
 
 #footerwrapper {
-  margin: 40px auto 20px;
+  margin: 40px auto 0;
   width: 80%;
   border: 1px solid $berkeley-light-grey;
 }
@@ -446,7 +446,7 @@ span.field-label { /* The inline field label used by the Fences module */
 
 #seal-copyright {
   width: 80%;
-  margin: 0px auto;
+  margin: 20px auto;
 }
 
 /*
