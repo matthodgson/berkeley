@@ -1,0 +1,132 @@
+/**
+ * @file
+ * Panels Styling
+ */
+
+@import "base";
+
+/* Fieldable Panel Panes */
+.fieldable-panels-pane{
+  overflow: hidden; //Hide overflow or will spill out of panels
+  padding: 10px 10px 20px 8px;
+}
+
+/* Pane Content */
+.pane-content {
+  h2 {
+    color: $berkeley-dark-blue;
+  }
+
+  a:link,
+  a:visited {
+    color: $pane-content-link-color;
+    text-decoration: underline;
+  }
+
+  .field-type-text-with-summary
+    ul:first-child {
+      padding: 0;
+      li {
+        list-style: inside;
+
+        &.markItUpButton {
+          list-style: none;
+        }
+      }
+    }
+
+  .media-widget .preview {
+    display: block;
+  }
+
+  .media-thumbnail{
+    img {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  #edit-field-featured-image {
+    padding-bottom: 20px;
+
+    .media-item {
+      width: auto;
+
+      img {
+        padding: 0;
+      }
+    }
+  }
+}
+
+/*
+ * Panopoly Overrides
+ */
+
+/* #menu-block-settings in panopoly_magic.css messes up admin/structure/block/add-menu-block
+ * Restore default and set for #modal-content only *
+ */
+#menu-block-settings {
+  float: none;
+  width: 100%;
+}
+
+#modal-content #menu-block-settings {
+  float: left;
+  width: 48%;
+}
+
+#modal-content .widget-preview-single {
+  width: 45%;
+}
+
+.pane-content {
+  .panopoly-image-half {
+    float:left;
+    margin-right: 2em;
+  }
+}
+
+//Panel Styles - General
+.panel-pane {
+  h2 {
+    font-size: 1.5em;
+    color: $berkeley-dark-blue;
+  }
+}
+.pane-content {
+  .view-vc-blog {
+    a:link,
+    a:visited {
+      text-decoration: none;
+      font-size: .9em;
+    }
+  }
+}
+
+
+// Panel Styles - may add as panel style
+.panels-dashboard,
+.page-admin-build-panels,
+.page-admin-build-panels-dashboard #content-area {
+  min-height: 50em;
+}
+.panel-pane {
+  border: $border-solid-light-grey;
+  margin: 20px 0px 0px 0px;
+  padding: 8px 14px 10px;
+  background: #FFF url('../images/ltgrey_gradient_1x300.png') repeat-x left top;
+}
+.pane-quicktabs-2 {
+  margin: 0;
+  padding: 0;
+  border: none !important;
+  background: none !important;
+}
+.panels-flexible-row {
+  margin: 0;
+  padding: 0;
+}
+
+
+

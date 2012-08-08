@@ -51,6 +51,8 @@
 }
 
 .tips { /* Tips for Drupal's input formats */
+  clear: both;
+  border-top: $border-solid-med-grey;
 }
 
 a.button { /* Buttons used by contrib modules like Media */
@@ -170,6 +172,13 @@ td.menu-disabled {
       border: none;
     }
   }
+}
+
+/*
+ * Autocomplete - Suggestion list
+ */
+#autocomplete li {
+  list-style: none;
 }
 
 

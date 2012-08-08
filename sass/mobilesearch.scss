@@ -30,7 +30,8 @@
  * Media Query: 0px to 480px
  */
 
-@media only screen and (max-width: -ucb-pem(480)) {
+@media only screen and (max-width: 480px) {
+//@media only screen and (max-width: -ucb-pem(480)) {
 
   #topwrapper,
   #search-mobile,
@@ -250,7 +251,8 @@
  * Media Query: 0px to 959px
  */
 
-@media only screen and (max-width: -ucb-pem(959)) {
+@media only screen and (max-width: 959px) {
+//@media only screen and (max-width: -ucb-pem(959)) {
 
  #secondary-menu {
     display: none;
@@ -317,7 +319,8 @@
  * Media Query: 0px to 319px
  */
 
-@media only screen and (max-width: -ucb-pem(319)) {
+@media only screen and (max-width: 319px) {
+//@media only screen and (max-width: -ucb-pem(319)) {
 
   #header {
     #menu-and-search-mobile {
@@ -336,7 +339,8 @@
  * Media Query: 481px to 630px
  */
 
-@media only screen and (min-width: -ucb-pem(481)) and (max-width: -ucb-pem(630)) {
+@media only screen and (min-width: 481px) and (max-width: 630px) {
+//@media only screen and (min-width: -ucb-pem(481)) and (max-width: -ucb-pem(630)) {
 
   #logo {
     display: none;
@@ -348,7 +352,8 @@
  * Media Query: 481px to 959px
  */
 
-@media only screen and (min-width: -ucb-pem(481)) and (max-width: -ucb-pem(959)) {
+@media only screen and (min-width: 481px) and (max-width: 959px) {
+//@media only screen and (min-width: -ucb-pem(481)) and (max-width: -ucb-pem(959)) {
 
   #name-and-slogan {
     position: absolute !important;
@@ -386,7 +391,8 @@
  * Media Query: 481px and above
  */
 
-@media only screen and (min-width: -ucb-pem(481)) {
+@media only screen and (min-width: 481px) {
+//@media only screen and (min-width: -ucb-pem(481)) {
   #name-and-slogan {
     position: relative;
   }
@@ -434,5 +440,4 @@
     }
   }
 }
-
 

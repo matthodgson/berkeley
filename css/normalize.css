@@ -208,49 +208,49 @@ h1 {
   /* Sets the font-size and line-height while keeping a proper vertical rhythm. */
   font-size: 1.5em;
   line-height: 2em;
-  /* Sets 1 unit of vertical rhythm on the top and bottom margins. */
-  margin-top: 1em;
-  margin-bottom: 1em;
+  /* Sets .5 unit of vertical rhythm on the top and bottom margins. Edited from 1 */
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize\.scss}line{font-family:\00003221}}
 h2 {
   font-size: 1.3em;
   line-height: 2.308em;
-  margin-top: 1.154em;
-  margin-bottom: 1.154em;
+  margin-top: 0.577em;
+  margin-bottom: 0.577em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize\.scss}line{font-family:\00003227}}
 h3 {
   font-size: 1.17em;
   line-height: 1.282em;
-  margin-top: 1.282em;
-  margin-bottom: 1.282em;
+  margin-top: 0.641em;
+  margin-bottom: 0.641em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize\.scss}line{font-family:\00003233}}
 h4 {
   font-size: 1em;
   line-height: 1.5em;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize\.scss}line{font-family:\00003239}}
 h5 {
   font-size: 0.83em;
   line-height: 1.807em;
-  margin-top: 1.807em;
-  margin-bottom: 1.807em;
+  margin-top: 0.904em;
+  margin-bottom: 0.904em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize\.scss}line{font-family:\00003245}}
 h6 {
   font-size: 0.75em;
   line-height: 2em;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 /* Thematic break */
@@ -659,7 +659,7 @@ textarea {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  /* width: 100%; */
+  width: 100%;
   /* Prevent cramped-looking tables */
   /* Add vertical rhythm margins. */
   margin-top: 1.5em;
@@ -676,9 +676,4 @@ th {
   /* LTR */
   padding: 0;
   border-bottom: none;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize\.scss}line{font-family:\00003662}}
-tbody {
-  border-top: none;
 }

@@ -397,7 +397,8 @@ li a.active {
 
 .sidebars {
   font-size: .85em;
-  .block-menu {
+  .block-menu,
+  .block-menu-block {
     margin: $block-menu-margin !important;
     background: $block-menu-color;
     border-bottom: $border-solid-med-grey;

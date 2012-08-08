@@ -7,4 +7,35 @@
 
 @import "base";
 
+/* NOTE: THESE STYLES ARE FOR VCAF WEB AND WILL EVENTUALLY BE REMOVED IN THE VERSION COMMITTED TO GITHUB */
+/* Also, comment out this stylesheet in .info file */
+
+/* Custom Styles for VCAF Website */
+
+.view-vc-blog {
+  .views-field-created {
+    color: $berkeley-dark-blue;
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: right;
+  }
+  .views-field-title {
+    font-size: 1.3em;
+    padding: 5px 0;
+    border-bottom: $border-solid-med-grey;
+    border-top: $border-solid-med-grey;
+
+    a:link, a:visited {
+      color: $berkeley-dark-blue;;
+    }
+  }
+}
+
+
+
+
+
+
+
+
 

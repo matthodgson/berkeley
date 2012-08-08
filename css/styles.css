@@ -18,3 +18,25 @@
   font-family: "ucberkeleyosbold";
   src: url('../fonts/ucberkeleyosbold.woff') format('woff'), url('../fonts/ucberkeleyosbold.eot') format('embedded-opentype'), url('../fonts/ucberkeleyosbold.ttf') format('truetype'), url('../fonts/ucberkeleyosbold.svg') format('svg');
 }
+
+/* NOTE: THESE STYLES ARE FOR VCAF WEB AND WILL EVENTUALLY BE REMOVED IN THE VERSION COMMITTED TO GITHUB */
+/* Also, comment out this stylesheet in .info file */
+/* Custom Styles for VCAF Website */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/styles\.scss}line{font-family:\0000316}}
+.view-vc-blog .views-field-created {
+  color: #003461;
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/styles\.scss}line{font-family:\0000322}}
+.view-vc-blog .views-field-title {
+  font-size: 1.3em;
+  padding: 5px 0;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/styles\.scss}line{font-family:\0000328}}
+.view-vc-blog .views-field-title a:link, .view-vc-blog .views-field-title a:visited {
+  color: #003461;
+}

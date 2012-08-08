@@ -113,6 +113,7 @@ $palatino:        Palatino, “Palatino Linotype”, “Hoefler Text”, Times, 
 //
 $font-base-color: #333;
 $font-default-text-shadow: 0 1px 0 #FFF;
+$pane-content-link-color: #0066A0;
 $berkeley-light-blue: #6988AC;
 $berkeley-drop-blue: #23517B;
 $berkeley-deep-blue: #264b69;
@@ -157,7 +158,7 @@ $berkeley-margin-top: 70px;
 $divider-img-margin-lr: 20px;
 $logo-margin-top: 80px;
 $name-and-slogan-margin: 108px 0 0 10px;
-$block-menu-margin: 15px 0;
+$block-menu-margin: 6px 0;
 $secondary-menu-pos-right: 110px; //228px when quick links enabled
 $secondary-menu-pos-top: 5px;
 $quicklinks-pos-right: 110px;
@@ -181,6 +182,7 @@ $submenu-indent: 15px;
 $border-solid-med-grey: 1px solid #ccc;
 $border-solid-darker-grey: 1px solid #aaa;
 $border-solid-thin-blue: 1px solid #557B9D;
+$border-solid-light-grey: 1px solid #D4D4D4;
 
 //
 // Standard Measurements

@@ -1,0 +1,35 @@
+/**
+ * @file
+ * Open Berkeley Kauai Panel Layout
+**/
+
+.kauai-container {
+  margin-bottom: 1em;
+}
+
+.kauai-sidebar {
+  width: 31.915%;
+  float: left;
+}
+
+.kauai-main {
+  width: 68.085%;
+  float: left;
+}
+
+  .kauai-main-inner {
+    margin-right: 20px;
+  }
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-width: 480px) {
+  .kauai-main
+  .kauai-sidebar {
+    width: 100%;
+    float: none;
+  }
+
+  .kauai-main-inner {
+    margin-right: 0;
+  }
+}

@@ -45,9 +45,11 @@ stylesheets[all][] = css/fields.css
 stylesheets[all][] = css/print.css
 stylesheets[all][] = css/mobilesearch.css
 stylesheets[all][] = css/nice_menus_default.css
+stylesheets[all][] = css/panels-styles.css
+stylesheets[all][] = css/editor-styles.css
 
 ; If used, uncomment the following stylesheets:
-;stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/styles.css
 ;stylesheets[all][] = css/local.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
@@ -158,4 +160,4 @@ settings[main_menu_nice_menus]     = 0
 
 ; To add a Panels layout (which can also be used by Display Suite), uncomment
 ; the line below and see the documentation at: http://drupal.org/node/495654
-;plugins[panels][layouts] = layouts
+plugins[panels][layouts] = layouts

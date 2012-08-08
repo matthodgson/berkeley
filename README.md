@@ -28,7 +28,9 @@ functionality at appearance/settings/berkeley.
 
 NOTES:
 
-1. This Zen5-based theme uses Sass/Compass.
+1. This Zen5-based theme uses Sass/Compass. If you want to edit the included Sass files
+and recompile the existing css files, get the latest version of Sass (3.2 or later).
+You do not need Sass to use this theme if you will not be changing the Sass files.
 
   For more information on using Sass/Compass, read sass/README.txt
 
