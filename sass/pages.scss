@@ -513,4 +513,13 @@ span.field-label { /* The inline field label used by the Fences module */
 .region-bottom { /* Wrapper for any blocks placed in the page bottom region */
 }
 
-
+/** jquery **/
+.jquery-intro {font-size: .8em; color: #003461; font-style: italic; text-align: left; border-bottom: 1px dotted #CCC;}
+.jquery-group {border-bottom: 1px dotted #CCC;}
+.jquery-subgroup {border-bottom: 1px dotted #CCC; /*padding-left: 40px;*/}
+.jquery-title {cursor:pointer;}
+.jquery-title:hover {cursor:pointer; text-decoration: underline;}
+.jquery-body {padding: 0 0 10px 20px;}
+.jquery-colexp {text-align: right;}
+.jquery-collapse, .jquery-expand {color:#347A9E; text-decoration: underline;}
+.jquery-collapse:hover,.jquery-expand:hover {color:#000; cursor:pointer;}

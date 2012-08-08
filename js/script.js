@@ -75,6 +75,33 @@
 
       });
 
+      /* Use these classes for custom collapse/expand functionality */
+      $('.jquery-body').hide();
+      $('.jquery-collapse').hide();
+      $('.jquery-expand').show();
+
+      $('.jquery-title').click(function(){
+         if($(this).next().is(':visible')){
+          $(this).next().hide('fast');
+         }else{
+          $(this).next().show('fast');
+         }
+      });
+
+      $('.jquery-collapse').click(function(){
+         $('.jquery-body').hide();
+         $('.jquery-collapse').hide();
+         $('.jquery-expand').show();
+      });
+
+      $('.jquery-expand').click(function(){
+         $('.jquery-body').show();
+         $('.jquery-expand').hide();
+         $('.jquery-collapse').show();
+      });
+
+      /* Add new code here */
+
     }
   };
 

@@ -629,3 +629,57 @@ span.field-label {
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
 }
+
+/** jquery **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003517}}
+.jquery-intro {
+  font-size: .8em;
+  color: #003461;
+  font-style: italic;
+  text-align: left;
+  border-bottom: 1px dotted #CCC;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003518}}
+.jquery-group {
+  border-bottom: 1px dotted #CCC;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003519}}
+.jquery-subgroup {
+  border-bottom: 1px dotted #CCC;
+  /*padding-left: 40px;*/
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003520}}
+.jquery-title {
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003521}}
+.jquery-title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003522}}
+.jquery-body {
+  padding: 0 0 10px 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003523}}
+.jquery-colexp {
+  text-align: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003524}}
+.jquery-collapse, .jquery-expand {
+  color: #347A9E;
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003525}}
+.jquery-collapse:hover, .jquery-expand:hover {
+  color: #000;
+  cursor: pointer;
+}
