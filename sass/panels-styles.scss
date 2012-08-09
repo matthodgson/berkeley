@@ -92,20 +92,37 @@
   h2 {
     font-size: 1.5em;
     color: $berkeley-dark-blue;
+    a:link,
+    a:visited {
+      text-decoration: none;
+    }
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+    }
   }
 }
 .pane-content {
-  .view-vc-blog {
+  .view {
     a:link,
     a:visited {
       text-decoration: none;
       font-size: .9em;
     }
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+    }
+  }
+  .view-header {
+    h2 {
+      margin: 0;
+    }
   }
 }
 
 
-// Panel Styles - may add as panel style
+/* Panel Styles */ // May add as panel style
 .panels-dashboard,
 .page-admin-build-panels,
 .page-admin-build-panels-dashboard #content-area {
@@ -126,6 +143,11 @@
 .panels-flexible-row {
   margin: 0;
   padding: 0;
+}
+
+/* Panels and Quick Tabs */
+ul.quicktabs-tabs.quicktabs-style-zen li {
+  margin: 0;
 }
 
 

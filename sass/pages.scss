@@ -246,11 +246,6 @@ h2.comment-form { /* Comment form heading */
   font-size: .85em;
 }
 
-/*
-.views_slideshow_cycle_slide {
-  width: auto;
-}*/
-
 p, pre {
   margin: 0 0 1.5em;
 }
@@ -261,6 +256,10 @@ tr.even { /* Some tables have rows marked even or odd. */
 
 tr.odd {
   /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+td {
+  padding-right: 20px;
 }
 
 div.messages { /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
@@ -405,11 +404,11 @@ span.field-label { /* The inline field label used by the Fences module */
 
   .footer-first {
     float: left;
-    width: 24%;
+    width: 23%;
   }
   .footer-next {
     float: left;
-    width: 24%;
+    width: 23%;
     margin-left: 1em;
   }
 
