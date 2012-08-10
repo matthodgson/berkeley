@@ -22,7 +22,7 @@
 }
 
 /**
- * Mobile defaults
+ * Responsive defaults
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000319}}
 #header #site-name-mobile,
@@ -36,11 +36,17 @@
   display: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000328}}
+.media-youtube-outer-wrapper {
+  height: 100% !important;
+  width: 100% !important;
+}
+
 /**
  * Media Query: 0px to 480px
  */
-@media only screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000341}}
+@media only screen and (max-width: 580px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000346}}
   #topwrapper,
   #search-mobile,
   #search,
@@ -50,32 +56,32 @@
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000350}}
   #page {
     margin: 0;
     max-width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000355}}
   #header {
     height: auto;
     padding: 0;
     background: #264b69;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000358}}
   #header .mobile-show-menu,
   #header .mobile-show-search {
     display: block !important;
     background: #6988ac;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000368}}
   #header #site-name-mobile {
     display: block;
     border-bottom: 1px solid #aaaaaa;
     text-align: center;
     text-transform: uppercase;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000373}}
   #header #site-name-mobile a {
     font-size: 1em;
     padding: 5px 0;
@@ -83,19 +89,19 @@
     display: block;
     color: #FFF;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000380}}
   #header #site-name-mobile a:hover {
     text-decoration: none;
     color: #ffc82e;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000387}}
   #header #menu-and-search-mobile {
     position: relative;
     height: auto;
     display: block;
     color: #FFF;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\0000394}}
   #header #menu-and-search-mobile #menu-mobile-controller {
     background: #6988ac;
     border-bottom: 1px solid #aaaaaa;
@@ -106,44 +112,44 @@
     width: 100%;
     font: normal 18px/50px "Lucida Grande", verdana sans-serif;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003105}}
   #header #menu-and-search-mobile #menu-mobile-controller-inner {
     padding: 0 10px;
     cursor: pointer;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003110}}
   #header #menu-and-search-mobile #main-menu-mobile {
     position: relative;
     top: 50px;
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003115}}
   #header #menu-and-search-mobile #main-menu-mobile #primary {
     padding: 0;
     margin: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003119}}
   #header #menu-and-search-mobile #main-menu-mobile #primary li {
     border-top: 1px solid #aaaaaa;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003122}}
   #header #menu-and-search-mobile #main-menu-mobile #primary li a {
     color: #fff;
     display: block;
     padding: 0 20px;
     font: normal 18px/57px "Lucida Grande", verdana sans-serif;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003129}}
   #header #menu-and-search-mobile #main-menu-mobile #primary li a:hover, #header #menu-and-search-mobile #main-menu-mobile #primary li a:active {
     color: white;
     background: #3E3E3E;
     text-decoration: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003137}}
   #header #menu-and-search-mobile #main-menu-mobile #primary li.last {
     border-bottom: 1px solid #aaaaaa;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003143}}
   #header #menu-and-search-mobile #search-mobile-controller {
     position: absolute;
     top: 0;
@@ -161,7 +167,7 @@
     background: url('../images/icon-search-mobile.png?1343759378') no-repeat center center, -ms-linear-gradient(bottom, #5a5a5a 0%, #808080 100%);
     background: url('../images/icon-search-mobile.png?1343759378') no-repeat center center, linear-gradient(bottom, #5a5a5a 0%, #808080 100%);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003156}}
   #header #menu-and-search-mobile #search-mobile-controller.active {
     background: url('../images/icon-mobile-search-expanded.png?1343759378') no-repeat center center, -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #5a5a5a), color-stop(100%, #808080));
     background: url('../images/icon-mobile-search-expanded.png?1343759378') no-repeat center center, -webkit-linear-gradient(bottom, #5a5a5a 0%, #808080 100%);
@@ -171,7 +177,7 @@
     background: url('../images/icon-mobile-search-expanded.png?1343759378') no-repeat center center, linear-gradient(bottom, #5a5a5a 0%, #808080 100%);
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003164}}
   #search-mobile {
     position: relative;
     top: 50px;
@@ -179,16 +185,16 @@
     border: 1px solid #000;
     border-width: 1px 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003171}}
   #search-mobile form {
     position: relative;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003175}}
   #search-mobile div.form-item {
     margin-right: 51px;
     display: block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003180}}
   #search-mobile input.form-text {
     width: 100%;
     border: 0;
@@ -206,7 +212,7 @@
     background: -ms-linear-gradient(bottom, #dadada 0%, #fefefe 100%);
     background: linear-gradient(bottom, #dadada 0%, #fefefe 100%);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003194}}
   #search-mobile .form-submit {
     display: block !important;
     position: absolute;
@@ -230,7 +236,7 @@
     background: url('../images/icon-search-mobile.png?1343759378') no-repeat center center, linear-gradient(bottom, #5a5a5a 0%, #808080 100%);
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003218}}
   #quick-links-widget {
     position: absolute;
     right: 50px;
@@ -238,57 +244,70 @@
     z-index: 50;
     border: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003225}}
   #quick-links-widget a#quick-links {
     padding: 0 20px 0 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003230}}
   #main {
     margin: 0 auto;
     padding: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003234}}
   #main #content {
     min-height: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003236}}
   #main #content input.form-text {
     width: 80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003240}}
   #main #navigation {
     height: auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003243}}
   #main .sidebars {
     border-top: 1px solid #ccc;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003248}}
   #main-menu {
     display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003254}}
+  #footer-menus .footer-first,
+  #footer-menus .footer-next {
+    width: 100%;
+    margin-left: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003261}}
+  .pane-content img,
+  .node img {
+    max-width: 80%;
+    float: none;
   }
 }
 /**
  * Media Query: 0px to 959px
  */
 @media only screen and (max-width: 959px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003276}}
   #secondary-menu {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003280}}
   #secondary-menu-mobile {
     display: block;
-    margin-top: 53px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003283}}
   #secondary-menu-mobile .block {
     margin-bottom: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003288}}
   #secondary-menu-mobile .block-menu .block-title,
   #secondary-menu-mobile .block-menu-block .block-title {
     position: absolute !important;
@@ -297,7 +316,7 @@
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003295}}
   #secondary-menu-mobile ul.links,
   #secondary-menu-mobile ul.menu {
     /* Menu block links */
@@ -306,7 +325,7 @@
     text-align: left;
     /* LTR */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003300}}
   #secondary-menu-mobile ul.links li,
   #secondary-menu-mobile ul.menu li {
     /* A simple method to get navigation links to appear in one line. */
@@ -317,7 +336,7 @@
     list-style-type: none;
     list-style-image: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003308}}
   #secondary-menu-mobile a {
     color: #828282;
     text-decoration: none;
@@ -326,24 +345,27 @@
     line-height: 1.714em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003317}}
+  #footer-social #social-links {
+    float: left;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003324}}
   #ucbseal,
   #copyright,
   #secondary-menu-mobile,
   #footer {
-    margin: 5% 0 0 5%;
     float: left;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003308}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003331}}
   #copyright,
   #secondary-menu-mobile,
   #footer {
-    border-top: 1px dotted #aaa;
     padding: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003336}}
   #copyright {
     width: 90%;
   }
@@ -352,7 +374,7 @@
  * Media Query: 0px to 319px
  */
 @media only screen and (max-width: 319px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003352}}
   #header #menu-and-search-mobile #site-name-mobile a {
     font-size: .9em;
   }
@@ -361,16 +383,36 @@
  * Media Query: 481px to 630px
  */
 @media only screen and (min-width: 481px) and (max-width: 630px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003369}}
   #logo {
     display: none;
+  }
+}
+/**
+ * Media Query: 481px to 680px
+ */
+@media only screen and (min-width: 481px) and (max-width: 680px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003382}}
+  .pane-content img,
+  .node img {
+    max-width: 90%;
+  }
+}
+/**
+ * Media Query: 681px to 800px
+ */
+@media only screen and (min-width: 681px) and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003394}}
+  .pane-content img,
+  .node img {
+    max-width: 50%;
   }
 }
 /**
  * Media Query: 481px to 959px
  */
 @media only screen and (min-width: 481px) and (max-width: 959px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003406}}
   #name-and-slogan {
     position: absolute !important;
     margin: 0 !important;
@@ -378,16 +420,16 @@
     top: 20px;
     left: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003413}}
   #name-and-slogan #site-slogan {
     display: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003417}}
   #name-and-slogan #site-name {
     font-size: 1.5em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003422}}
   #search {
     position: absolute;
     top: 50px;
@@ -395,7 +437,7 @@
     margin: 0 !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003429}}
   #quick-links-widget {
     position: absolute;
     top: 5px;
@@ -407,12 +449,12 @@
  * Media Query: 481px and above
  */
 @media only screen and (min-width: 481px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003444}}
   #name-and-slogan {
     position: relative;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003400}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003448}}
   #search {
     display: block;
     float: right;
@@ -420,24 +462,24 @@
     clear: both;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003455}}
   #search #search-form {
     margin-bottom: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003411}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003459}}
   #search .form-item-keys {
     margin: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003415}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003463}}
   #search input.form-text {
     width: 100px;
     background-color: #fff;
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003421}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003469}}
   #search input.form-submit {
     background: url("../images/search-icon.png") no-repeat scroll left top transparent;
     border: 0 none;
@@ -454,7 +496,7 @@
    * @see http://christophzillgens.com/en/articles/equal-height-input-and-button-elements-in-firefox-and-safari
    */
   @-moz-document url-prefix() {
-    /* line 438, ../sass/mobilesearch.scss */
+    /* line 486, ../sass/mobilesearch.scss */
     #search .form-submit {
       border: 0px;
     }

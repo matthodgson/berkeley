@@ -10,7 +10,7 @@
 @import "base";
 
 /**
- * Mobile defaults
+ * Responsive defaults
  */
 
 #header {
@@ -25,12 +25,17 @@
   display: none;
 }
 
+.media-youtube-outer-wrapper {
+  height: 100% !important;
+  width: 100% !important;
+}
+
 
 /**
  * Media Query: 0px to 480px
  */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 //@media only screen and (max-width: -ucb-pem(480)) {
 
   #topwrapper,
@@ -244,7 +249,21 @@
     display: none;
   }
 
-}
+  #footer-menus {
+    .footer-first,
+    .footer-next {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  .pane-content img,
+  .node img {
+    max-width: 80%;
+    float: none;
+  }
+
+} //End Media Query: 0px to 480px
 
 
 /**
@@ -270,7 +289,7 @@
      @include element-invisible();
    }
 
-   margin-top: $footer-margin-top;
+   //margin-top: $footer-margin-top;
 
    ul.links, /* Footer menu links */
    ul.menu { /* Menu block links */
@@ -295,25 +314,30 @@
 
  }
 
+  #footer-social #social-links {
+    float: left;
+  }
+
   #ucbseal,
   #copyright,
   #secondary-menu-mobile,
   #footer {
-    margin: 5% 0 0 5%;
+    //margin: 5% 0 0 5%;
     float: left;
   }
 
   #copyright,
   #secondary-menu-mobile,
   #footer {
-    border-top: 1px dotted #aaa;
+    //border-top: 1px dotted #aaa;
     padding: 0;
   }
 
   #copyright {
     width: 90%;
   }
-}
+
+} //End Media Query: 0px to 959px
 
 /**
  * Media Query: 0px to 319px
@@ -332,7 +356,7 @@
       }
   }
 
-}
+} //End Media Query: 0px to 319px
 
 
 /**
@@ -346,7 +370,31 @@
     display: none;
   }
 
-}
+} //End Media Query: 481px to 630px
+
+
+/**
+ * Media Query: 481px to 680px
+ */
+
+@media only screen and (min-width: 481px) and (max-width: 680px) {
+  .pane-content img,
+  .node img {
+    max-width: 90%;
+  }
+} //End Media Query: 481px to 680px
+
+
+/**
+ * Media Query: 681px to 800px
+ */
+
+@media only screen and (min-width: 681px) and (max-width: 800px) {
+  .pane-content img,
+  .node img {
+    max-width: 50%;
+  }
+} //End Media Query: 681px to 800px
 
 /**
  * Media Query: 481px to 959px
@@ -385,7 +433,7 @@
     border: none;
   }
 
-}
+} //End Media Query: 481px to 959px
 
 /**
  * Media Query: 481px and above
@@ -439,5 +487,5 @@
       border: 0px;
     }
   }
-}
+} //End Media Query: 481px and above
 
