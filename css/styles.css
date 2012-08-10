@@ -20,7 +20,7 @@
 }
 
 /* NOTE: THESE STYLES ARE FOR VCAF WEB AND WILL EVENTUALLY BE REMOVED IN THE VERSION COMMITTED TO GITHUB */
-/* Also, comment out this stylesheet in .info file */
+/* Also, comment out this stylesheet in .info file if not committing to github version */
 /* Custom Styles for VCAF Website */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/styles\.scss}line{font-family:\0000316}}
 .view-vc-blog .views-field-created {
@@ -39,4 +39,18 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/styles\.scss}line{font-family:\0000328}}
 .view-vc-blog .views-field-title a:link, .view-vc-blog .views-field-title a:visited {
   color: #003461;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/styles\.scss}line{font-family:\0000334}}
+.pane-uuid-75a2a823-aaa9-0594-45f5-a42bd62fefd7 {
+  margin: 0;
+  padding: 0 25px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/styles\.scss}line{font-family:\0000338}}
+.pane-uuid-75a2a823-aaa9-0594-45f5-a42bd62fefd7 .fieldable-panels-pane {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/styles\.scss}line{font-family:\0000340}}
+.pane-uuid-75a2a823-aaa9-0594-45f5-a42bd62fefd7 .fieldable-panels-pane p {
+  margin: 0;
 }

@@ -32,11 +32,11 @@
 
 
 /**
- * Media Query: 0px to 480px
+ * Media Query: 0px to 580px
  */
 
 @media only screen and (max-width: 580px) {
-//@media only screen and (max-width: -ucb-pem(480)) {
+//@media only screen and (max-width: -ucb-pem(580)) {
 
   #topwrapper,
   #search-mobile,
@@ -211,7 +211,6 @@
 
   }
 
-
   #berkeley {
   }
 
@@ -257,13 +256,14 @@
     }
   }
 
+  /* Panels */
   .pane-content img,
   .node img {
     max-width: 80%;
     float: none;
   }
 
-} //End Media Query: 0px to 480px
+} //End Media Query: 0px to 580px
 
 
 /**
@@ -279,6 +279,8 @@
 
   #secondary-menu-mobile {
     display: block;
+    border-top: 1px dotted #aaa;
+    clear: both;
 
    .block {
      margin-bottom: 0;
@@ -316,10 +318,11 @@
 
   #footer-social #social-links {
     float: left;
+    clear: both;
   }
 
   #ucbseal,
-  #copyright,
+  //#copyright,
   #secondary-menu-mobile,
   #footer {
     //margin: 5% 0 0 5%;
@@ -334,8 +337,33 @@
   }
 
   #copyright {
-    width: 90%;
+    //width: 90%;
   }
+
+  /* Tables */
+  table {
+    margin-top: 0;
+  }
+
+  th {
+    display: block;
+    font: {
+      weight: normal;
+      style: italic;
+      size: .8em;
+    }
+    line-height: 1.2em;
+    padding: 0 0 0 8px;
+  }
+
+  td {
+    display: block;
+    padding-right: 0;
+    img {
+      margin: 0 !important;
+    }
+  }
+
 
 } //End Media Query: 0px to 959px
 
@@ -381,6 +409,11 @@
   .pane-content img,
   .node img {
     max-width: 90%;
+  }
+
+  #copyright {
+    float: left;
+    clear: both;
   }
 } //End Media Query: 481px to 680px
 

@@ -8,7 +8,7 @@
 @import "base";
 
 /* NOTE: THESE STYLES ARE FOR VCAF WEB AND WILL EVENTUALLY BE REMOVED IN THE VERSION COMMITTED TO GITHUB */
-/* Also, comment out this stylesheet in .info file */
+/* Also, comment out this stylesheet in .info file if not committing to github version */
 
 /* Custom Styles for VCAF Website */
 
@@ -27,6 +27,18 @@
 
     a:link, a:visited {
       color: $berkeley-dark-blue;;
+    }
+  }
+}
+
+.pane-uuid-75a2a823-aaa9-0594-45f5-a42bd62fefd7 {
+  margin: 0;
+  padding: 0 25px 0;
+
+  .fieldable-panels-pane {
+    padding: 0;
+    p {
+      margin: 0;
     }
   }
 }
