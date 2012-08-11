@@ -53,8 +53,6 @@ li a.active {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\0000347}}
 #navigation {
   background: #23517b;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
   /* overflow: hidden; */
   /* Sometimes you want to prevent overlapping with main div. */
 }
