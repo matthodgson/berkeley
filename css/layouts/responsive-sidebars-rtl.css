@@ -125,11 +125,7 @@
   width: 98%;
   min-width: 98%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003111}}
-.lt-ie9 .boxton-container {
-  width: 75%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003116}}
 .lt-ie9 .sidebar-first #content {
   /* Span 4 columns, starting in 2nd column from left. */
   float: right;
@@ -137,11 +133,11 @@
   margin-right: 20%;
   margin-left: -100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003118}}
 .lt-ie9 .sidebar-first #content h1 {
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003123}}
 .lt-ie9 .sidebar-first .region-sidebar-first {
   /* Span 1 column, starting in 1st column from left. */
   float: right;
@@ -149,7 +145,7 @@
   margin-right: 0%;
   margin-left: -20%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003133}}
 .lt-ie9 .sidebar-second #content {
   /* Span 4 columns, starting in 1st column from left. */
   float: right;
@@ -157,7 +153,7 @@
   margin-right: 0%;
   margin-left: -80%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003137}}
 .lt-ie9 .sidebar-second .region-sidebar-second {
   /* Span 1 column, starting in 5th column from left. */
   float: right;
@@ -165,7 +161,7 @@
   margin-right: 80%;
   margin-left: -100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003147}}
 .lt-ie9 .two-sidebars #content {
   /* Span 3 columns, starting in 2nd column from left. */
   float: right;
@@ -173,7 +169,7 @@
   margin-right: 20%;
   margin-left: -80%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003151}}
 .lt-ie9 .two-sidebars .region-sidebar-first {
   /* Span 1 column, starting in 1st column from left. */
   float: right;
@@ -181,7 +177,7 @@
   margin-right: 0%;
   margin-left: -20%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003155}}
 .lt-ie9 .two-sidebars .region-sidebar-second {
   /* Span 1 column, starting in 5th column from left. */
   float: right;
@@ -193,11 +189,11 @@
 /*
  * Conditional classes for IE7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003166}}
 .lt-ie8 #navigation {
   left: -3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003169}}
 .lt-ie8 .region-sidebar-first {
   position: absolute;
   left: -3px;
@@ -208,14 +204,14 @@
  * Navigation bar
  */
 @media all and (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003182}}
   #main {
     padding-top: 3em;
     /* Move all the children of #main down to make room. */
     position: relative;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003186}}
   #navigation {
     position: absolute;
     top: 0;
@@ -231,7 +227,7 @@
   /*
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003209}}
   .sidebar-first #content {
     /* Span 2 columns, starting in 2nd column from left. */
     float: right;
@@ -239,7 +235,7 @@
     margin-right: 33.333%;
     margin-left: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003213}}
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -251,7 +247,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003223}}
   .sidebar-second #content {
     /* Span 2 columns, starting in 1st column from left. */
     float: right;
@@ -259,7 +255,7 @@
     margin-right: 0%;
     margin-left: -66.667%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003227}}
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 3rd column from left. */
     float: right;
@@ -271,7 +267,7 @@
   /*
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003237}}
   .two-sidebars #content {
     /* Span 2 columns, starting in 2nd column from left. */
     float: right;
@@ -279,7 +275,7 @@
     margin-right: 33.333%;
     margin-left: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003241}}
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -287,7 +283,7 @@
     margin-right: 0%;
     margin-left: -33.333%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003245}}
   .two-sidebars .region-sidebar-second {
     /* Start a new row and span all 3 columns. */
     float: right;
@@ -298,7 +294,7 @@
     padding-right: 0;
     clear: right;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003254}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003250}}
   .two-sidebars .region-sidebar-second .block {
     padding-left: 10px;
     padding-right: 10px;
@@ -308,7 +304,7 @@
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003253}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     /* Span 1 column, starting in the 1st column from left. */
     float: right;
@@ -317,7 +313,7 @@
     margin-left: -33.333%;
     clear: right;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003257}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     /* Span 1 column, starting in the 2nd column from left. */
     float: right;
@@ -325,7 +321,7 @@
     margin-right: 33.333%;
     margin-left: -66.667%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003260}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     /* Span 1 column, starting in the 3rd column from left. */
     float: right;
@@ -338,7 +334,7 @@
   /*
    * Basic layout for #main
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003275}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003271}}
   #main {
     width: 100%;
   }
@@ -349,7 +345,7 @@
   /*
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003285}}
   .sidebar-first #content {
     /* Span 4 columns, starting in 2nd column from left. */
     float: right;
@@ -357,7 +353,7 @@
     margin-right: 20%;
     margin-left: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003289}}
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -369,7 +365,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003303}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003299}}
   .sidebar-second #content {
     /* Span 4 columns, starting in 1st column from left. */
     float: right;
@@ -377,7 +373,7 @@
     margin-right: 0%;
     margin-left: -80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003303}}
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: right;
@@ -389,7 +385,7 @@
   /*
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003313}}
   .two-sidebars #content {
     /* Span 3 columns, starting in 2nd column from left. */
     float: right;
@@ -397,7 +393,7 @@
     margin-right: 20%;
     margin-left: -80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003317}}
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -405,7 +401,7 @@
     margin-right: 0%;
     margin-left: -20%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003321}}
   .two-sidebars .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: right;
