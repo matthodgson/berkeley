@@ -71,6 +71,20 @@
   }
 }
 
+.pane-content {
+  .view-id-view_change_agenda {
+    a:link,
+    a:visited {
+      text-decoration: none;
+      font-size: 1em;
+    }
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+    }
+  }
+}
+
 
 
 

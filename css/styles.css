@@ -78,3 +78,15 @@
 .lt-ie9 .node-25 td img {
   max-width: none;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/styles\.scss}line{font-family:\0000377}}
+.pane-content .view-id-view_change_agenda a:link,
+.pane-content .view-id-view_change_agenda a:visited {
+  text-decoration: none;
+  font-size: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/styles\.scss}line{font-family:\0000382}}
+.pane-content .view-id-view_change_agenda a:hover,
+.pane-content .view-id-view_change_agenda a:focus {
+  text-decoration: underline;
+}
