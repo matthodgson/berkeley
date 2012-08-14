@@ -43,6 +43,34 @@
   }
 }
 
+.node-25 {
+  tbody {
+    border: $border-solid-med-grey;
+  }
+  th, td {
+    padding-left: 10px;
+    font-size: 1.2em;
+
+    a:link,
+    a:visited {
+      text-decoration: none;
+    }
+  }
+  tr.tr-odd {
+    background: $berkeley-pale-grey;
+  }
+}
+
+.lt-ie9 {
+  .node-25 {
+    td {
+      img {
+        max-width: none;
+      }
+    }
+  }
+}
+
 
 
 

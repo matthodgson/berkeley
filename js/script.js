@@ -21,9 +21,10 @@
     attach : function(context, settings) {
 
       //Temporary JS alert for IE8 and older during development
+      /*
       if ($.browser.msie && parseInt($.browser.version) < 9){
         alert('Site under development. To view working site, please use IE9 or later, or a non-IE browser.');
-      }
+      } */
 
       // Mobile magic - Adapted from Open Academy (http://chapterthree.com/openacademy/)
       $('#search-mobile-controller').click(function() {

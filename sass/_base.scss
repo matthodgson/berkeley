@@ -34,6 +34,9 @@
   @return #{$pixels/16.0}em
 }
 
+// Debug media queries - see _custom.scss and http://johanbrook.com/design/css/debugging-css-media-queries/
+// Uncomment line below to debug and put call to mixin in "@if($DEBUG == true){}"
+// $DEBUG: true;
 
 //
 // Legacy IE support

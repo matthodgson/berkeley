@@ -18,6 +18,23 @@
   width: social-link-icons-sprite-width($name);
 }
 
+// Debug message for debugging CSS media queries
+// See http://johanbrook.com/design/css/debugging-css-media-queries/
+@mixin debugmessage($message, $color: rgba(255,255,0, 0.9) ){
+    &::before{
+        content: $message;
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        background: #{$color};
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 10;
+        z-index: 99;
+    }
+}
+
 // Zen 5 Custom Mixins
 
 // element-invisible as defined by http://snook.ca/archives/html_and_css/hiding-content-for-accessibility

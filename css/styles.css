@@ -54,3 +54,27 @@
 .pane-uuid-75a2a823-aaa9-0594-45f5-a42bd62fefd7 .fieldable-panels-pane p {
   margin: 0;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/styles\.scss}line{font-family:\0000347}}
+.node-25 tbody {
+  border: 1px solid #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/styles\.scss}line{font-family:\0000350}}
+.node-25 th, .node-25 td {
+  padding-left: 10px;
+  font-size: 1.2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/styles\.scss}line{font-family:\0000355}}
+.node-25 th a:link,
+.node-25 th a:visited, .node-25 td a:link, .node-25 td a:visited {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/styles\.scss}line{font-family:\0000359}}
+.node-25 tr.tr-odd {
+  background: #eaeae8;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/styles\.scss}line{font-family:\0000367}}
+.lt-ie9 .node-25 td img {
+  max-width: none;
+}

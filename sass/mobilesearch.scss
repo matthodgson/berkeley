@@ -30,6 +30,133 @@
   width: 100% !important;
 }
 
+/*
+ * Conditional classes for <IE9
+ */
+// See http://drupal.org/project/zen and http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither
+.lt-ie9 {
+  #page,
+  #bottomwrapper {
+    border-left: $border-solid-med-grey;
+    border-right: $border-solid-med-grey;
+  }
+
+  #page {
+    border-bottom: 1px solid $page-color;
+  }
+
+  #bottomwrapper {
+    border-top: 1px solid $page-color;
+  }
+
+  #search {
+    clear: both;
+    display: block;
+    float: right;
+
+    #search-form {
+      input.form-text {
+       size: 10 !important;
+       width: 100px !important;
+      }
+    }
+  }
+
+  #name-and-slogan {
+    position: relative !important;
+    margin: 0px 0px 0px 10px;
+    a:hover,
+    a:focus {
+      text-decoration: none;
+    }
+  }
+
+  #site-name {
+    font-size: 2.3em;
+    line-height: 0;
+    margin: 0;
+
+    a:link,
+    a:visited {
+      color: #fff;
+    }
+  }
+
+  //IE8 Fixes
+
+  #header, #content,
+  #navigation, .region-sidebar-second,
+  #footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    word-wrap: break-word;
+  }
+
+  #page-title {
+    padding-left: 10px;
+  }
+
+  #name-and-slogan {
+    position: relative !important;
+    top: 110px;
+    display: inline;
+  }
+
+  #search {
+    margin: -100px 110px 0 0;
+  }
+
+  /* http://stackoverflow.com/questions/1771176/ie8-non-compatibility-mode-image-with-max-width-and-heightauto */
+  #berkeley img {
+    width: auto;
+    /* or could set max-width: none; */
+  }
+
+  #ucbseal-img {
+    width: auto
+  }
+
+}
+
+/*
+ * Conditional classes for IE7
+ */
+.lt-ie8 {
+  #footer h2.block-title {
+    display: none;
+  }
+
+  #name-and-slogan {
+    float: none;
+    position: absolute;
+    line-height: 1;
+    bottom: -25px;
+  }
+
+  #search {
+    position: relative !important;
+    left: 750px !important;
+    float: left !important  ;
+  }
+
+  .kauai-sidebar {
+    float: right;
+    width: 31.915%;
+  }
+
+  .kauai-main {
+    float: left;
+    width: 68.085%;
+  }
+
+  #navigation ul.nice-menu {
+    z-index: 100;
+  }
+
+  .region-sidebar-first {
+    z-index: -10;
+  }
+}
 
 /**
  * Media Query: 0px to 580px
