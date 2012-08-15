@@ -101,6 +101,7 @@ ul:first-child li.markItUpButton {
   margin-right: 2em;
 }
 
+/* Panel Styles - General */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\0000392}}
 .panel-pane h2 {
   font-size: 1.5em;

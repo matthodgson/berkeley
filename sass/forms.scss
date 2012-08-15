@@ -30,7 +30,6 @@
   }
 
   .description { /* The descriptive help text (separate from the label) */
-    //font-size: 0.85em;
     @include adjust-font-size-to(14px); //Use Compass mixin for vertical rhythm
   }
 

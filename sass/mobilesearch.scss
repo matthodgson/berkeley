@@ -32,8 +32,10 @@
 
 /*
  * Conditional classes for <IE9
+ *
+ * See http://drupal.org/project/zen and http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither
  */
-// See http://drupal.org/project/zen and http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither
+
 .lt-ie9 {
   #page,
   #bottomwrapper {
@@ -82,7 +84,7 @@
     }
   }
 
-  //IE8 Fixes
+  /* IE8 Fixes */
 
   #header, #content,
   #navigation, .region-sidebar-second,
@@ -426,8 +428,6 @@
      @include element-invisible();
    }
 
-   //margin-top: $footer-margin-top;
-
    ul.links, /* Footer menu links */
    ul.menu { /* Menu block links */
      margin: 0;
@@ -457,22 +457,18 @@
   }
 
   #ucbseal,
-  //#copyright,
   #secondary-menu-mobile,
   #footer {
-    //margin: 5% 0 0 5%;
     float: left;
   }
 
   #copyright,
   #secondary-menu-mobile,
   #footer {
-    //border-top: 1px dotted #aaa;
     padding: 0;
   }
 
   #copyright {
-    //width: 90%;
   }
 
   /* Tables */
