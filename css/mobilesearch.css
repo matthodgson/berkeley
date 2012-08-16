@@ -129,36 +129,36 @@
 .lt-ie9 #ucbseal-img {
   width: auto;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003121}}
+.lt-ie9 .kauai-sidebar {
+  float: right;
+  width: 31.915%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003126}}
+.lt-ie9 .kauai-main {
+  float: left;
+  width: 68.085%;
+}
 
 /*
  * Conditional classes for IE7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003137}}
 .lt-ie8 #footer h2.block-title {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003141}}
 .lt-ie8 #name-and-slogan {
   float: none;
   position: absolute;
   line-height: 1;
   bottom: -25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003148}}
 .lt-ie8 #search {
   position: relative !important;
   left: 750px !important;
   float: left !important;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003144}}
-.lt-ie8 .kauai-sidebar {
-  float: right;
-  width: 31.915%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003149}}
-.lt-ie8 .kauai-main {
-  float: left;
-  width: 68.085%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/mobilesearch\.scss}line{font-family:\00003154}}
 .lt-ie8 #navigation ul.nice-menu {

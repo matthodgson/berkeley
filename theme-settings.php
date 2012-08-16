@@ -115,14 +115,15 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
 
   // Font Handling - adapted from http://drupal.org/project/mayo
   // Font stacks - see http://drupal.org/project/zen and http://unitinteractive.com/blog/2008/06/26/better-css-font-stacks/
+
   $font_options = array(
     t('Berkeley Font Families') => array(
-      'Helvetica Neue'  => t('"Helvetica Neue",Helvetica,Arial,sans-serif;'),
-      'Helvetica'       => t('Helvetica, "Helvetica Neue", Arial, "Nimbus Sans L", sans-serif'),
-      'Verdana'         => t('Verdana, Tahoma, "DejaVu Sans", sans-serif'),
-      'Geneva'          => t('Geneva, “Lucida Sans”, “Lucida Grande”, Verdana, sans-serif'),
-      'Times New Roman' => t('Times New Roman", Times, Georgia, "DejaVu Serif", serif'),
-      'Custom'          => t('Custom'),
+      '"Helvetica Neue",Helvetica,Arial,sans-serif;'                    => t('Helvetica Neue'),
+      'Helvetica, "Helvetica Neue", Arial, "Nimbus Sans L", sans-serif' => t('Helvetica'),
+      'Verdana, Tahoma, "DejaVu Sans", sans-serif'                      => t('Verdana'),
+      'Geneva, “Lucida Sans”, “Lucida Grande”, Verdana, sans-serif'     => t('Geneva'),
+      'Times New Roman", Times, Georgia, "DejaVu Serif", serif'         => t('Times New Roman'),
+      'Custom'                                                          => t('Custom'),
     ),
   );
 

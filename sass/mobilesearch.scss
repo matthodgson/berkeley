@@ -118,6 +118,16 @@
     width: auto
   }
 
+  .kauai-sidebar {
+    float: right;
+    width: 31.915%;
+  }
+
+  .kauai-main {
+    float: left;
+    width: 68.085%;
+  }
+
 }
 
 /*
@@ -139,16 +149,6 @@
     position: relative !important;
     left: 750px !important;
     float: left !important  ;
-  }
-
-  .kauai-sidebar {
-    float: right;
-    width: 31.915%;
-  }
-
-  .kauai-main {
-    float: left;
-    width: 68.085%;
   }
 
   #navigation ul.nice-menu {
