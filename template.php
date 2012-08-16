@@ -149,20 +149,20 @@ function berkeley_preprocess_page(&$variables, $hook) {
   $variables['berkeley'] = t('<a href="@href"><img alt="@alt" id="berkeley-img" src="@src" width="@width" height="@height" /></a>', array(
     '@href'   => $site_path,
     '@alt'    => 'University of California, Berkeley',
-    '@src'    => '/' . path_to_theme() . '/images/berkeley.png',
+    '@src'    => '/' . drupal_get_path('theme', 'berkeley') . '/images/berkeley.png',
     '@width'  => '204',
     '@height' => '70',
   ));
   $variables['divider'] = t('<img alt="@alt" id="divider-img" src="@src" width="@width" height="@height" />', array(
     '@alt'    => '',
-    '@src'    => '/' . path_to_theme() . '/images/divider-gold.png',
+    '@src'    => '/' . drupal_get_path('theme', 'berkeley') . '/images/divider-gold.png',
     '@width'  => '5',
     '@height' => '122',
   ));
   $variables['ucbseal'] = t('<a href="@href"><img alt="@alt" id="ucbseal-img" src="@src" width="@width" height="@height" /></a>', array(
     '@href'   => 'http://www.berkeley.edu',
     '@alt'    => 'University of California, Berkeley',
-    '@src'    => '/' . path_to_theme() . '/images/ucb-seal.png',
+    '@src'    => '/' . drupal_get_path('theme', 'berkeley') . '/images/ucb-seal.png',
     '@width'  => '280',
     '@height' => '50',
   ));

@@ -50,11 +50,24 @@ You do not need Sass to use this theme if you will not be changing the Sass file
   before moving to Production (see sass/README.txt).
 
 6. Adding custom styles
-  The styles.scss file is available for you to create your own custom Sass
-  When you run compass watch (or compass compile), it will generate styles.css.
+  If you want to add custom CSS styles but do not need to override any PHP files,
+  do the following:
 
-  If you don't want to use sass, you can also add custom styles to the local.css
-  file directly. Do not create a local.scss file, or it will remove any styles in
-  the local.css when you run compass watch or compass compile.
+  a. If using Sass/Compass:
+     1. In the berkeley.info file, uncomment stylesheets[all][] = css/styles.css
+        (remove the semi-colon)
+     2. Create a new styles.scss file in the sass directory (sass/styles.scss)
+     3. Add the following to the top of the file: @import "base";
+     4. Add your custom styles to the sass/styles.scss file
+     5. When you run compass watch (or compass compile), it will generate styles.css
+     6. See the README.txt file in the SASS folder to learn more about using Sass and Compass
+
+  b. If you don't want to use Sass/Compass:
+     1. In the berkeley.info file, uncomment stylesheets[all][] = css/local.css
+        (remove the semi-colon)
+     2. Create a new local.css file in the css directory (css/local.css)
+     3. Add your custom styles to the css/local.css
+     4. Note: Do not create a sass/local.scss file, or it will remove any styles
+        in the local.css when you run compass watch or compass compile
 
 
