@@ -38,7 +38,7 @@
     /* Add visible URL after links. */
     content: " (" attr(href) ")";
     font-weight: normal;
-    font-size: 16px;
+    font-size: .9em;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/print\.scss}line{font-family:\0000330}}
   #content a[href^="javascript:"]:after,
@@ -66,13 +66,18 @@
   #page,
   #main,
   #content {
-    /* Turn off any background colors or images */
+    /* Set background to white, text to black; turn off any background images */
     color: #000;
-    background-color: transparent !important;
+    background-color: #FFF !important;
     background-image: none !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/print\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/print\.scss}line{font-family:\0000373}}
+  #berkeley,
+  #divider,
+  #site-name-mobile,
+  #menu-and-search-mobile,
+  #search,
   #skip-link,
   #toolbar,
   #navigation,
@@ -90,6 +95,26 @@
     /* Hide sidebars and nav elements */
     visibility: hidden;
     display: none;
+  }
+
+  /* Override Chrome h1 styling */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/print\.scss}line{font-family:\0000379}}
+  h1 {
+    /* Turn off any background colors or images */
+    color: #000;
+    background-color: #FFF !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/print\.scss}line{font-family:\0000384}}
+  #main {
+    border: 1px solid #cccccc;
+    width: 95%;
+    box-shadow: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/print\.scss}line{font-family:\0000390}}
+  #footerwrapper {
+    width: 95%;
   }
 }
 /* End @media print */

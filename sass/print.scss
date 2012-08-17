@@ -23,7 +23,7 @@
     a[href]:after { /* Add visible URL after links. */
       content: " (" attr(href) ")";
       font-weight: normal;
-      font-size: $base-font-size;
+      font-size: .9em;
     }
 
     a[href^="javascript:"]:after,
@@ -46,12 +46,17 @@
   body,
   #page,
   #main,
-  #content { /* Turn off any background colors or images */
+  #content { /* Set background to white, text to black; turn off any background images */
     color: #000;
-    background-color: transparent !important;
+    background-color: #FFF !important;
     background-image: none !important;
   }
 
+  #berkeley,
+  #divider,
+  #site-name-mobile,
+  #menu-and-search-mobile,
+  #search,
   #skip-link,
   #toolbar,
   #navigation,
@@ -68,6 +73,22 @@
   .feed-icons { /* Hide sidebars and nav elements */
     visibility: hidden;
     display: none;
+  }
+
+  /* Override Chrome h1 styling */
+  h1 { /* Turn off any background colors or images */
+    color: #000;
+    background-color: #FFF !important;
+  }
+
+  #main {
+    border: $border-solid-med-grey;
+    width: 95%;
+    box-shadow: none;
+  }
+
+  #footerwrapper {
+    width: 95%;
   }
 
 } /* End @media print */
