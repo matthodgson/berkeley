@@ -101,49 +101,55 @@ ul:first-child li.markItUpButton {
   margin-right: 2em;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\0000391}}
+.pane-theme .admin-theme-image,
+.pane-apps .admin-apps-image {
+  padding-right: 1em;
+}
+
 /* Panel Styles - General */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\0000397}}
 .panel-pane h2 {
   font-size: 1.5em;
   line-height: 1.5em;
   color: #003461;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003102}}
 .panel-pane h2 a:link,
 .panel-pane h2 a:visited {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003106}}
 .panel-pane h2 a:hover,
 .panel-pane h2 a:focus {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003114}}
 .pane-content .view a:link,
 .pane-content .view a:visited {
   text-decoration: none;
   font-size: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003119}}
 .pane-content .view a:hover,
 .pane-content .view a:focus {
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003124}}
 .pane-content .view-header h2 {
   margin: 0;
 }
 
 /* Panel Styles */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003134}}
 .panels-dashboard,
 .page-admin-build-panels,
 .page-admin-build-panels-dashboard #content-area {
   min-height: 50em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003137}}
 .panel-pane {
   border: 1px solid #d4d4d4;
   margin: 20px 0px 0px 0px;
@@ -151,7 +157,7 @@ ul:first-child li.markItUpButton {
   background: white url("../images/ltgrey_gradient_1x300.png") repeat-x left top;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003143}}
 .pane-quicktabs-2 {
   margin: 0;
   padding: 0;
@@ -159,14 +165,14 @@ ul:first-child li.markItUpButton {
   background: none !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003149}}
 .panels-flexible-row {
   margin: 0;
   padding: 0;
 }
 
 /* Panels and Quick Tabs */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/panels-styles\.scss}line{font-family:\00003155}}
 ul.quicktabs-tabs.quicktabs-style-zen li {
   margin: 0;
 }
