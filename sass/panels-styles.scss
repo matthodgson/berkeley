@@ -127,6 +127,35 @@
   }
 }
 
+/* Panel Styles - Panopoly Layout Overrides - Extend media query */
+.bryant-flipped-sidebar {
+  .panel-pane h2 {
+    font-size: 1.2em;
+  }
+  h2.node-title,
+  h2.block-title,
+  h2.title,
+  h2.pane-title,
+  h2.comment-form {
+    padding: 5px 0px;
+  }
+}
+
+
+@media only screen and (max-width: 680px) {
+  .bryant-flipped-sidebar,
+  .bryant-flipped-content {
+    width: 100%;
+    float: none;
+  }
+
+  .bryant-flipped-content-inner {
+    margin-right: 0;
+  }
+
+}
+
+
 
 /* Panel Styles */ // May add as panel style
 .panels-dashboard,
