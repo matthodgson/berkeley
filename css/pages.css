@@ -288,8 +288,8 @@ h2.comment-form {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003242}}
 .image-center {
-  display: block;
-  margin: auto;
+  display: block !important;
+  margin: auto !important;
 }
 
 /* Text tweaking */

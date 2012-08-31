@@ -16,6 +16,6 @@
 .image-right {float: right;}
 .image-left {float: left;}
 .image-center {
-  display: block;
-  margin: auto;
+  display: block !important;
+  margin: auto !important;
 }

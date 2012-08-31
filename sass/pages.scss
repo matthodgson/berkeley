@@ -239,7 +239,7 @@ h2.comment-form { /* Comment form heading */
 /* Image positioning */
 .image-right {float: right;}
 .image-left {float: left;}
-.image-center {display: block; margin: auto;}
+.image-center {display: block !important; margin: auto !important;}
 
 /* Text tweaking */
 .text-center {

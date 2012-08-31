@@ -35,6 +35,6 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/editor-styles\.scss}line{font-family:\0000318}}
 .image-center {
-  display: block;
-  margin: auto;
+  display: block !important;
+  margin: auto !important;
 }
