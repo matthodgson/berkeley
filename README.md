@@ -70,4 +70,16 @@ You do not need Sass to use this theme if you will not be changing the Sass file
      4. Note: Do not create a sass/local.scss file, or it will remove any styles
         in the local.css when you run compass watch or compass compile
 
+7. Updating the Berkeley theme
+  Updating the Berkeley theme is similar to the process for updating any Drupal theme. We recommend the following process:
+    a. Backup your current version of the Berkeley theme and any subtheme files in case you made any changes to the version used by your website.
+    b. Download the new release of the theme.
+    c. Upload and overwrite your current theme files with the updated ones. IMPORTANT: If you have made any downstream updates, you will need to re-apply your changes after the theme upgrade. For example:
+      1. berkeley.info: If you've added stylesheets (e.g., css/styles.css or css/local.css), you will need to re-add these to the berkeley.info file.
+      2. styles.scss or local.css: If these files exist in your pre-updated Berkeley theme, you will want to add them back after updating the theme.
+      3. config.rb: If you've launched your production website and edited the environment in your config.rb file to minify the css files, you will want to re-apply your changes to config.rb (or keep your version of this file if no other changes), run "compass clean" and then "compass watch" to regenerate the minified css files.
+    d. Note on Sub-themes. If properly created, your sub-theme should not be under the Berkeley theme folder and should still work properly after updating the Berkeley theme.
+    e. Make sure to try the theme update on a local or development site first. If using CSS or JS aggregation, you will need to clear all caches (admin/config/development/performance) to clear the theme registry. You may also need to re-save the theme settings (visit admin/appearance/settings/berkeley and click "Save Configuration").
+    f. Before updating the theme on a live website, we recommend putting your site in offline (maintenance) mode and creating a backup of the files and database.
+
 
