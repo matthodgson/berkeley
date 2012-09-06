@@ -92,6 +92,13 @@
   padding-right: 1em;
 }
 
+/* Edit for displaying videos in reusable content modal window */
+.panels-add-content-modal {
+  .pane-bundle-video {
+    width: 50%;
+  }
+}
+
 /* Panel Styles - General */
 .panel-pane {
   h2 {
