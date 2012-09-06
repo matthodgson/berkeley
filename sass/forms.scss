@@ -155,6 +155,7 @@ td.menu-disabled {
 /*
  * Styles for theme settings
  */
+
 #system-theme-settings {
   .fieldset-description,
   .form-item .description {
@@ -176,9 +177,21 @@ td.menu-disabled {
 /*
  * Autocomplete - Suggestion list
  */
+
 #autocomplete li {
   list-style: none;
 }
 
+/*
+ * Styles for Node Edit Form
+ */
+
+/* Display underline for links in TinyMCE body window */
+ #tinymce {
+  a:link,
+  a:visited {
+      text-decoration: underline !important;
+  }
+ }
 
 
