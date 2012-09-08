@@ -456,6 +456,13 @@ img {
   height: auto;
 }
 
+/* Responsive objects, iframes, embeds */
+object,
+iframe,
+embed {
+  max-width: 100%
+}
+
 /*
  * Corrects overflow displayed oddly in IE9
  */
