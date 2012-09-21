@@ -8,6 +8,21 @@
 }
 
 /**
+ * Media Query: 0px to 680px
+ */
+@media only screen and (max-width: 680px) {
+  .kauai-main
+  .kauai-sidebar {
+    width: 100%;
+    float: none;
+  }
+
+  .kauai-main-inner {
+    margin-right: 0;
+  }
+}
+
+/**
  * Media Query: 681px and above
  */
 @media only screen and (min-width: 681px) {
@@ -26,17 +41,4 @@
   }
 }
 
-/**
- * Media Query: 0px to 680px
- */
-@media only screen and (max-width: 680px) {
-  .kauai-main
-  .kauai-sidebar {
-    width: 100%;
-    float: none;
-  }
 
-  .kauai-main-inner {
-    margin-right: 0;
-  }
-}
