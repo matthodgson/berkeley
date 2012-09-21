@@ -399,10 +399,7 @@ li a.active {
   .block-menu,
   .block-menu-block {
     margin: $block-menu-margin !important;
-    background: $block-menu-color;
-    border-bottom: $border-solid-med-grey;
     border-top: $border-solid-med-grey;
-    @include border-radius(5px);
   }
   h2.block-title {
     text-transform: uppercase;
@@ -450,7 +447,6 @@ li a.active {
 
       &.last {
         a {
-          border-bottom: none;
         }
       }
 
@@ -460,6 +456,26 @@ li a.active {
     ul {
       padding-left: $submenu-indent;
     }
+
+    /* reduce padding for deep nested menus */
+    ul.menu ul.menu{
+      li {
+        a {
+        padding: 2px 0 2px 20px;
+        }
+        &.expanded {
+          a.active-trail {
+            background: url(../images/menu-expanded.png) no-repeat 5px 10px;
+          }
+        }
+        &.leaf {
+          a.active-trail {
+            background: url(../images/menu-leaf.png) no-repeat 5px 10px;
+          }
+        }
+      }
+    }
+
   }
 
 }

@@ -12,16 +12,12 @@
   background: url('../images/social-link-icons-sa0e1f4b582.png') no-repeat;
 }
 
-@font-face {
-  font-family: "ucberkeleyos";
-  src: url('../fonts/ucberkeleyos.woff') format('woff'), url('../fonts/ucberkeleyos.eot') format('embedded-opentype'), url('../fonts/ucberkeleyos.ttf') format('truetype'), url('../fonts/ucberkeleyos.svg') format('svg');
-}
-
-@font-face {
-  font-family: "ucberkeleyosbold";
-  src: url('../fonts/ucberkeleyosbold.woff') format('woff'), url('../fonts/ucberkeleyosbold.eot') format('embedded-opentype'), url('../fonts/ucberkeleyosbold.ttf') format('truetype'), url('../fonts/ucberkeleyosbold.svg') format('svg');
-}
-
+/* 22px for page */
+/* 20px */
+/* 17px */
+/* 14px */
+/* 12px */
+/* 10.5px */
 /* Image positioning */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/editor-styles\.scss}line{font-family:\0000316}}
 .image-right {

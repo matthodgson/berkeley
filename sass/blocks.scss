@@ -23,7 +23,7 @@
 
   h2.block-title { /* Block title */
     @include background (linear-gradient(bottom, $berkeley-block-grey1 0%, $berkeley-block-grey2 100%));
-    @include border-top-radius(5px);
+    padding: 2px;
   }
 }
 

@@ -19,10 +19,12 @@ body {
   padding: 0;
   background: $page-color;
   color: $font-base-color;
+
 }
 
 #page {
-  @include adjust-font-size-to(14px); //adjust font-size and respective line-height using Compass' vertical_rhythm
+  font-size: .875em; /* 14px */
+  line-height: 1.5em;
   margin-top: -$header-height;
 }
 
@@ -161,7 +163,7 @@ a#logo { /* Wrapping link for logo */
   margin: $main-margin-top auto 0;
   z-index: 5;
   width: 80%;
-  @include box-shadow(rgba(black, 0.4) 0px 2px 5px);
+  @include box-shadow(rgba(black, 0.4) 0px 1px 2px);
   @include border-radius(4px);
 
   #add-this {
@@ -214,7 +216,7 @@ h3.title { /* Comment title */
 }
 
 h1#page-title {
-  font-size: 1.5em;
+  font-size: 1.57em;
   line-height: 1em;
   margin: .5em 0 .5em 0;
   padding: 0;
@@ -226,13 +228,8 @@ h2.block-title, /* Block title */
 h2.title, /* Comment section heading */
 h2.pane-title,
 h2.comment-form { /* Comment form heading */
-  font-size: 1.25em;
-  line-height: 1em;
-  margin: 0;
-  padding: 5px;
+  padding-top: 5px;
   border-bottom: 1px solid #ccc;
-  color: #222;
-  @include single-text-shadow(#FFF, 1px, 1px, 1px);
 }
 
 .pane-content img, .node img {
@@ -257,7 +254,24 @@ h2.comment-form { /* Comment form heading */
 }
 
 p, pre {
-  margin: 0 0 1.5em;
+}
+
+/* Tables */
+th {
+  background-color: $berkeley-med-grey;
+  color: #FFFFFF;
+  font-size: .8em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  padding: 5px 20px;
+  text-align: left;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+td {
+  border-bottom: 1px solid #E9E9E9;
+  padding: 10px 20px;
 }
 
 tr.even { /* Some tables have rows marked even or odd. */
@@ -266,10 +280,6 @@ tr.even { /* Some tables have rows marked even or odd. */
 
 tr.odd {
   /* background-color: #eee; */ /* Drupal core uses a #eee background */
-}
-
-td {
-  padding-right: 20px;
 }
 
 div.messages { /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
@@ -522,12 +532,13 @@ span.field-label { /* The inline field label used by the Fences module */
 .region-bottom { /* Wrapper for any blocks placed in the page bottom region */
 }
 
-/** jquery **/
+/** jquery - collapse/expand **/
 .jquery-intro {font-size: .8em; color: #003461; font-style: italic; text-align: left; border-bottom: 1px dotted #CCC;}
 .jquery-group {border-bottom: 1px dotted #CCC;}
 .jquery-subgroup {border-bottom: 1px dotted #CCC; /*padding-left: 40px;*/}
 .jquery-title {cursor:pointer;}
 .jquery-title:hover {cursor:pointer; text-decoration: underline;}
+.jquery-title h3 {color: #333; font-weight: normal; text-transform: none; font-size: 1.17em; line-height: 1.282em; margin-bottom: .641em; margin-top: .641em;}
 .jquery-body {padding: 0 0 10px 20px;}
 .jquery-colexp {text-align: right;}
 .jquery-collapse, .jquery-expand {color:#347A9E; text-decoration: underline;}

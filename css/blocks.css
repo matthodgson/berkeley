@@ -7,16 +7,12 @@
   background: url('../images/social-link-icons-sa0e1f4b582.png') no-repeat;
 }
 
-@font-face {
-  font-family: "ucberkeleyos";
-  src: url('../fonts/ucberkeleyos.woff') format('woff'), url('../fonts/ucberkeleyos.eot') format('embedded-opentype'), url('../fonts/ucberkeleyos.ttf') format('truetype'), url('../fonts/ucberkeleyos.svg') format('svg');
-}
-
-@font-face {
-  font-family: "ucberkeleyosbold";
-  src: url('../fonts/ucberkeleyosbold.woff') format('woff'), url('../fonts/ucberkeleyosbold.eot') format('embedded-opentype'), url('../fonts/ucberkeleyosbold.ttf') format('truetype'), url('../fonts/ucberkeleyosbold.svg') format('svg');
-}
-
+/* 22px for page */
+/* 20px */
+/* 17px */
+/* 14px */
+/* 12px */
+/* 10.5px */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/blocks\.scss}line{font-family:\000039}}
 .block {
   /* Block wrapper */
@@ -47,16 +43,7 @@
   background: -o-linear-gradient(bottom, #dadada 0%, #fefefe 100%);
   background: -ms-linear-gradient(bottom, #dadada 0%, #fefefe 100%);
   background: linear-gradient(bottom, #dadada 0%, #fefefe 100%);
-  -moz-border-radius-topleft: 5px;
-  -webkit-border-top-left-radius: 5px;
-  -ms-border-top-left-radius: 5px;
-  -o-border-top-left-radius: 5px;
-  border-top-left-radius: 5px;
-  -moz-border-radius-topright: 5px;
-  -webkit-border-top-right-radius: 5px;
-  -ms-border-top-right-radius: 5px;
-  -o-border-top-right-radius: 5px;
-  border-top-right-radius: 5px;
+  padding: 2px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/blocks\.scss}line{font-family:\0000331}}

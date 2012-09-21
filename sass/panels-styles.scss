@@ -14,7 +14,7 @@
 /* Pane Content */
 .pane-content {
   h2 {
-    color: $berkeley-dark-blue;
+    //color: $berkeley-dark-blue;
   }
 
   a:link,
@@ -102,12 +102,10 @@
 /* Panel Styles - General */
 .panel-pane {
   h2 {
-    font-size: 1.5em;
-    line-height: 1.5em;
-    color: $berkeley-dark-blue;
     a:link,
     a:visited {
       text-decoration: none;
+      color: $berkeley-dark-blue;
     }
     a:hover,
     a:focus {
@@ -162,9 +160,7 @@
 
 }
 
-
-
-/* Panel Styles */ // May add as panel style
+/* Panel Styles */ //Consider as panel style
 .panels-dashboard,
 .page-admin-build-panels,
 .page-admin-build-panels-dashboard #content-area {

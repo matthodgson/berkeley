@@ -192,11 +192,9 @@ a:active {
 /* =============================================================================
    Typography
 
-   To achieve a pleasant vertical rhythm, we use Compass' Vertical Rhythm mixins
-   so that the line height of our base font becomes the basic unit of vertical
-   measurement. We use multiples of that unit to set the top and bottom margins
-   for our block level elements and to set the line heights of any fonts.
-   For more information, see http://24ways.org/2006/compose-to-a-vertical-rhythm
+   To use Compass' Vertical Rhythm mixins, see the following references:
+   http://compass-style.org/reference/compass/typography/vertical_rhythm/
+   http://24ways.org/2006/compose-to-a-vertical-rhythm
    ========================================================================== */
 
 /*
@@ -207,6 +205,7 @@ a:active {
  h1, h2, h3, h4, h5, h6 {
    font-weight: $font-weight-default;
    color: $font-base-color;
+   margin: 0;
  }
 
 h1 {
@@ -214,38 +213,40 @@ h1 {
   @include adjust-font-size-to( $h1-font-size );
 
   /* Sets .5 unit of vertical rhythm on the top and bottom margins. Edited from 1 */
-  @include leader(.5, $h1-font-size);
-  @include trailer(.5, $h1-font-size);
+   line-height: .9545em; /* 21px for page */
 }
 
 h2 {
   @include adjust-font-size-to( $h2-font-size );
-  @include leader(.5, $h2-font-size);
-  @include trailer(.5, $h2-font-size);
+  color: $berkeley-dark-blue;
+  line-height: 1.05em; /* 21px */
 }
 
 h3 {
   @include adjust-font-size-to( $h3-font-size );
-  @include leader(.5, $h3-font-size);
-  @include trailer(.5, $h3-font-size);
+  color: $berkeley-dark-blue;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2353em; /* 21px */
 }
 
 h4 {
   @include adjust-font-size-to( $h4-font-size );
-  @include leader(.5, $h4-font-size);
-  @include trailer(.5, $h4-font-size);
+  text-transform: uppercase;
+  line-height: 1.5em; /* 21px */
 }
 
 h5 {
   @include adjust-font-size-to( $h5-font-size );
-  @include leader(.5, $h5-font-size);
-  @include trailer(.5, $h5-font-size);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.75em; /* 21px */
 }
 
 h6 {
   @include adjust-font-size-to( $h6-font-size );
-  @include leader(.5, $h6-font-size);
-  @include trailer(.5, $h6-font-size);
+  text-transform: uppercase;
+  line-height: 2em; /* 21px */
 }
 
 /* Thematic break */
@@ -303,8 +304,7 @@ mark {
 
 p,
 pre {
-  /* Sets 1 unit of vertical rhythm on the top and bottom margin. */
-  margin: rhythm(1) 0;
+  margin: 1.1em 0 1.5em 0;
 }
 
 /*

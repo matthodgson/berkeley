@@ -11,16 +11,12 @@
   background: url('../images/social-link-icons-sa0e1f4b582.png') no-repeat;
 }
 
-@font-face {
-  font-family: "ucberkeleyos";
-  src: url('../fonts/ucberkeleyos.woff') format('woff'), url('../fonts/ucberkeleyos.eot') format('embedded-opentype'), url('../fonts/ucberkeleyos.ttf') format('truetype'), url('../fonts/ucberkeleyos.svg') format('svg');
-}
-
-@font-face {
-  font-family: "ucberkeleyosbold";
-  src: url('../fonts/ucberkeleyosbold.woff') format('woff'), url('../fonts/ucberkeleyosbold.eot') format('embedded-opentype'), url('../fonts/ucberkeleyosbold.ttf') format('truetype'), url('../fonts/ucberkeleyosbold.svg') format('svg');
-}
-
+/* 22px for page */
+/* 20px */
+/* 17px */
+/* 14px */
+/* 12px */
+/* 10.5px */
 /*
  * Body
  */
@@ -32,10 +28,11 @@ body {
   color: #333333;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000325}}
 #page {
-  font-size: 0.875em;
-  line-height: 1.714em;
+  font-size: .875em;
+  /* 14px */
+  line-height: 1.5em;
   margin-top: -260px;
 }
 
@@ -43,11 +40,11 @@ body {
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000336}}
 #skip-link {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000340}}
 #skip-link a,
 #skip-link a:visited {
   display: block;
@@ -61,7 +58,7 @@ body {
 /*
  * Top Wrapper - Note: Background image can be selected via theme settings
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000354}}
 #topwrapper {
   background: #012545 url("../header-images/header-sathergate-1.png") no-repeat center top;
   -webkit-background-size: cover;
@@ -74,41 +71,41 @@ body {
 /*
  * Header
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000365}}
 #header {
   height: 260px;
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000370}}
 #berkeley {
   margin-left: 10%;
   margin-top: 70px;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000374}}
 #berkeley img {
   border: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000379}}
 #divider {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000383}}
 #divider-img {
   margin: 0 20px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000387}}
 #logowrapper {
   float: left;
   width: 80px;
   height: 80px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000393}}
 a#logo {
   /* Wrapping link for logo */
   float: left;
@@ -116,12 +113,12 @@ a#logo {
   margin: 80px 0 0 0;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\0000397}}
 a#logo img {
   vertical-align: bottom;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003102}}
 #name-and-slogan {
   /* Wrapper for website name and slogan (parent organization) */
   font-size: 0.875em;
@@ -130,12 +127,12 @@ a#logo img {
   margin: 108px 0 0 10px;
   /* Keep Site Name and Site Slogan as typed by User - Not overridden by theme settings */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003110}}
 #name-and-slogan h1#site-name, #name-and-slogan h2#site-slogan {
   text-transform: none !important;
   font-family: "Helvetica Neue", Helvetica, Arial, FreeSans, "Liberation Sans", sans-serif !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003117}}
 #name-and-slogan h2#site-slogan {
   margin-bottom: 1.15em;
   margin-top: 1.15em;
@@ -143,26 +140,26 @@ a#logo img {
 }
 
 @media all and (min-width: 481px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003127}}
   #site-name {
     /* The name of the website */
     margin: 0;
     font-size: 2.3em;
     line-height: 0px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003133}}
   #site-name a:link,
   #site-name a:visited {
     color: #fff;
     text-decoration: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003139}}
   #site-name a:hover,
   #site-name a:focus {
     text-decoration: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003144}}
   #site-slogan {
     /* The slogan (or tagline) of a website */
     font-size: 1.5em;
@@ -172,7 +169,7 @@ a#logo img {
     bottom: 10px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003153}}
 .region-header {
   /* Wrapper for any blocks placed in the header region */
   clear: both;
@@ -182,22 +179,22 @@ a#logo img {
 /*
  * Main (container for everything else)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003161}}
 #main {
   background: #f1f1ee;
   margin: -100px auto 0;
   z-index: 5;
   width: 80%;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003169}}
 #main #add-this {
   clear: both;
   float: right;
@@ -207,37 +204,37 @@ a#logo img {
 /*
  * Content
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003180}}
 #content {
   min-height: 300px;
   padding-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003188}}
 .breadcrumb {
   /* The path to the current page in the form of a list of links */
   font-size: .85em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003191}}
 .breadcrumb ol {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003195}}
 .breadcrumb li {
   display: inline;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003203}}
 .breadcrumb a:link,
 .breadcrumb a:visited {
   color: #6988ac;
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003214}}
 h1.title,
 h2.node-title,
 h2.block-title,
@@ -248,32 +245,27 @@ h3.title {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003218}}
 h1#page-title {
-  font-size: 1.5em;
+  font-size: 1.57em;
   line-height: 1em;
   margin: .5em 0 .5em 0;
   padding: 0;
   border-bottom: 1px solid #ccc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003230}}
 h2.node-title,
 h2.block-title,
 h2.title,
 h2.pane-title,
 h2.comment-form {
   /* Comment form heading */
-  font-size: 1.25em;
-  line-height: 1em;
-  margin: 0;
-  padding: 5px;
+  padding-top: 5px;
   border-bottom: 1px solid #ccc;
-  color: #222;
-  text-shadow: white 1px 1px 1px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003235}}
 .pane-content img, .node img {
   background-color: #FFF;
   border: 1px solid #CCCCCC;
@@ -282,74 +274,84 @@ h2.comment-form {
 }
 
 /* Image positioning */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003246}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003243}}
 .image-right {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003244}}
 .image-left {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003245}}
 .image-center {
   display: block !important;
   margin: auto !important;
 }
 
 /* Text tweaking */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003248}}
 .text-center {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003252}}
 .caption {
   font-size: .85em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003259}}
-p, pre {
-  margin: 0 0 1.5em;
+/* Tables */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003260}}
+th {
+  background-color: #828282;
+  color: #FFFFFF;
+  font-size: .8em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  padding: 5px 20px;
+  text-align: left;
+  text-transform: uppercase;
+  vertical-align: top;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003272}}
+td {
+  border-bottom: 1px solid #E9E9E9;
+  padding: 10px 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003277}}
 tr.even {
   /* Some tables have rows marked even or odd. */
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003267}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003281}}
 tr.odd {
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003271}}
-td {
-  padding-right: 20px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003275}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003285}}
 div.messages {
   /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
   margin: 1.5em 0;
   /* Drupal core uses "6px 0" margin */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003292}}
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003298}}
 div.status {
   /* Normal priority messages */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003302}}
 div.warning,
 tr.warning {
   /* Medium priority messages */
@@ -357,77 +359,77 @@ tr.warning {
   /* Drupal core uses: 1px solid #f0c020 */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003297}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003307}}
 div.error,
 tr.error {
   /* High priority messages. See also the .error declaration below. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003300}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003310}}
 .error {
   /* Errors that are separate from div.messages status messages. */
   /* color: #e55; */
   /* Drupal core uses a #e55 background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003314}}
 .warning {
   /* Warnings that are separate from div.messages status messages. */
   /* color: #e09010; */
   /* Drupal core uses a #e09010 background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003308}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003318}}
 .tabs {
   /* See also the tabs.css file. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003321}}
 .region-help {
   /* Help text on a page */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003324}}
 .more-help-link {
   /* Link to more help */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003327}}
 .region-content {
   /* Wrapper for the actual page content */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003330}}
 ul.action-links {
   list-style-type: none;
   margin: 1em 0;
   overflow: hidden;
   padding: 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003336}}
 ul.action-links li {
   float: left;
   margin: 0 1em 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003341}}
 ul.action-links a {
   background: url("../images/add.png") no-repeat scroll 0 center transparent;
   line-height: 30px;
   padding-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003347}}
 ul.action-links a:link, ul.action-links a:visited {
   color: #003461;
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003356}}
 ul.inline {
   /* List of links generated by theme_links() */
   display: inline;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003360}}
 ul.inline li {
   display: inline;
   list-style-type: none;
@@ -435,30 +437,30 @@ ul.inline li {
   /* LTR */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003366}}
 span.field-label {
   /* The inline field label used by the Fences module */
   padding: 0 1em 0 0;
   /* LTR */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003370}}
 .item-list .pager {
   /* A list of page numbers when more than 1 page of content is available */
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003373}}
 .item-list .pager li {
   /* Each page number in the pager list */
   padding: 0 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003378}}
 .feed-icon {
   /* The link to the RSS or Atom feed for the current list of content */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003381}}
 .more-link {
   /* Aggregator, blog, and forum more link */
 }
@@ -478,21 +480,21 @@ span.field-label {
 /*
  * Bottom Wrapper
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003407}}
 #bottomwrapper {
   margin: 0 auto;
   padding-bottom: 8em;
   max-width: 1280px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003403}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003413}}
 #footerwrapper {
   margin: 40px auto 0;
   width: 80%;
   border: 1px solid #d4d4d4;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003409}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003419}}
 #footer-menus {
   /* See navigation.scss for navigation */
   padding: 20px 0 15px 12px;
@@ -500,25 +502,25 @@ span.field-label {
   font-size: .8em;
   color: #828282;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003415}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003425}}
 #footer-menus .footer-first {
   float: left;
   width: 23%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003419}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003429}}
 #footer-menus .footer-next {
   float: left;
   width: 23%;
   margin-left: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003428}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003438}}
 #footer-social #footer {
   float: left;
   padding: 20px 0 15px 12px;
   text-transform: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003434}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003444}}
 #footer-social #social-links {
   float: right;
   padding: 10px 10px 10px 12px;
@@ -526,22 +528,22 @@ span.field-label {
   font-size: .8em;
   color: #828282;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003441}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003451}}
 #footer-social #social-links .follow-us {
   color: #828282;
   font-size: 1em;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003446}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003456}}
 #footer-social #social-links .social-link-icons {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003460}}
 #footer-social #social-links .item-list ul {
   margin: 0 0 0.75em;
   padding: 0 0 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003453}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003463}}
 #footer-social #social-links .item-list ul li {
   /* A simple method to get navigation links to appear in one line. */
   float: left;
@@ -551,63 +553,63 @@ span.field-label {
   list-style-type: none;
   list-style-image: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003458}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003468}}
 #footer-social #social-links .item-list ul li a {
   display: block;
   width: 24px;
   height: 24px;
   text-indent: -9999px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003463}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003473}}
 #footer-social #social-links .item-list ul li a.facebook-link {
   background-position: 0 -144px;
   height: 24px;
   width: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003466}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003476}}
 #footer-social #social-links .item-list ul li a.twitter-link {
   background-position: 0 -168px;
   height: 24px;
   width: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003469}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003479}}
 #footer-social #social-links .item-list ul li a.linkedin-link {
   background-position: 0 -96px;
   height: 24px;
   width: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003482}}
 #footer-social #social-links .item-list ul li a.foursquare-link {
   background-position: 0 -48px;
   height: 24px;
   width: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003475}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003485}}
 #footer-social #social-links .item-list ul li a.youtube-link {
   background-position: 0 -72px;
   height: 24px;
   width: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003478}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003488}}
 #footer-social #social-links .item-list ul li a.googleplus-link {
   background-position: 0 -24px;
   height: 24px;
   width: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003481}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003491}}
 #footer-social #social-links .item-list ul li a.flickr-link {
   background-position: 0 -120px;
   height: 24px;
   width: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003484}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003494}}
 #footer-social #social-links .item-list ul li a.rss-link {
   background-position: 0 0;
   height: 24px;
   width: 24px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003494}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003504}}
 #seal-copyright {
   width: 80%;
   margin: 20px auto;
@@ -616,7 +618,7 @@ span.field-label {
 /*
  * UCB Seal
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003502}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003512}}
 #ucbseal {
   float: left;
 }
@@ -624,7 +626,7 @@ span.field-label {
 /*
  * Copyright
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003510}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003520}}
 #copyright {
   margin: 15px 0;
   float: right;
@@ -637,13 +639,13 @@ span.field-label {
 /*
  * Page bottom
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003522}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003532}}
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
 }
 
-/** jquery **/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003526}}
+/** jquery - collapse/expand **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003536}}
 .jquery-intro {
   font-size: .8em;
   color: #003461;
@@ -652,45 +654,56 @@ span.field-label {
   border-bottom: 1px dotted #CCC;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003527}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003537}}
 .jquery-group {
   border-bottom: 1px dotted #CCC;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003528}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003538}}
 .jquery-subgroup {
   border-bottom: 1px dotted #CCC;
   /*padding-left: 40px;*/
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003529}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003539}}
 .jquery-title {
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003530}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003540}}
 .jquery-title:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003531}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003541}}
+.jquery-title h3 {
+  color: #333;
+  font-weight: normal;
+  text-transform: none;
+  font-size: 1.17em;
+  line-height: 1.282em;
+  margin-bottom: .641em;
+  margin-top: .641em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003542}}
 .jquery-body {
   padding: 0 0 10px 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003532}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003543}}
 .jquery-colexp {
   text-align: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003533}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003544}}
 .jquery-collapse, .jquery-expand {
   color: #347A9E;
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003534}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003545}}
 .jquery-collapse:hover, .jquery-expand:hover {
   color: #000;
   cursor: pointer;
