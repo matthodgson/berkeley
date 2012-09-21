@@ -62,18 +62,25 @@ $legacy-support-for-ie8: true;
 // rhythm for your entire page. You can see some of its mixins and functions in
 // use in the normalize.scss file.
 // @see http://compass-style.org/reference/compass/typography/vertical_rhythm/
-// http://drewish.com/tools/vertical-rhythm
 
 $base-font-size:   16px; // The font size set on the root html element.
 $base-line-height: 24px; // This line-height determines the basic unit of vertical rhythm. Set to 1.5em.
 
 // See pages.scss - page content set to 14px (.875em)
-$h1-font-size: 1.5714  * $base-font-size; /* 22px for page */
-$h2-font-size: 1.4286  * $base-font-size; /* 20px */
-$h3-font-size: 1.2143  * $base-font-size; /* 17px */
-$h4-font-size: 1       * $base-font-size; /* 14px */
-$h5-font-size: 0.8571  * $base-font-size; /* 12px */
-$h6-font-size: 0.75    * $base-font-size; /* 10.5px */
+// Headings - see http://drewish.com/tools/vertical-rhythm for calc tool
+$h1-multiplier: 1.5714;
+$h2-multiplier: 1.4286;
+$h3-multiplier: 1.2143;
+$h4-multiplier: 1;
+$h5-multiplier: 0.8571;
+$h6-multiplier: 0.75;
+
+$h1-font-size: $h1-multiplier * $base-font-size; /* 22px for page */
+$h2-font-size: $h2-multiplier * $base-font-size; /* 20px */
+$h3-font-size: $h3-multiplier * $base-font-size; /* 17px */
+$h4-font-size: $h4-multiplier * $base-font-size; /* 14px */
+$h5-font-size: $h5-multiplier * $base-font-size; /* 12px */
+$h6-font-size: $h6-multiplier * $base-font-size; /* 10.5px */
 
 // The following font family declarations are based on the Microsoft core web
 // fonts which are common fonts available on most computer systems. The DejaVu

@@ -203,23 +203,30 @@ a:active {
  */
 
  h1, h2, h3, h4, h5, h6 {
-   font-weight: $font-weight-default;
-   color: $font-base-color;
-   margin: 0;
+  font-weight: $font-weight-default;
+  color: $font-base-color;
+  margin: 0;
+
+  &+ p,
+  &+ pre {
+  /* Reset p and pre margins if under a heading */
+  margin: 0 0 1.5em;
+  }
+
  }
 
 h1 {
   /* Sets the font-size and line-height while keeping a proper vertical rhythm. */
   @include adjust-font-size-to( $h1-font-size );
-
-  /* Sets .5 unit of vertical rhythm on the top and bottom margins. Edited from 1 */
-   line-height: .9545em; /* 21px for page */
+  line-height: .9545em; /* 21px for page */
+  margin-bottom: .5em * $h1-multiplier;
 }
 
 h2 {
   @include adjust-font-size-to( $h2-font-size );
   color: $berkeley-dark-blue;
   line-height: 1.05em; /* 21px */
+  margin-bottom: .5em * $h2-multiplier;
 }
 
 h3 {
@@ -228,25 +235,29 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2353em; /* 21px */
+  margin-bottom: .5em * $h3-multiplier;
 }
 
 h4 {
   @include adjust-font-size-to( $h4-font-size );
   text-transform: uppercase;
+  font-weight: bold;
   line-height: 1.5em; /* 21px */
+  margin-bottom: .5em * $h4-multiplier;
 }
 
 h5 {
   @include adjust-font-size-to( $h5-font-size );
-  font-weight: bold;
   text-transform: uppercase;
   line-height: 1.75em; /* 21px */
+  margin-bottom: .5em * $h5-multiplier;
 }
 
 h6 {
   @include adjust-font-size-to( $h6-font-size );
-  text-transform: uppercase;
+  font-weight: bold;
   line-height: 2em; /* 21px */
+  margin-bottom: .5em * $h6-multiplier;
 }
 
 /* Thematic break */
@@ -304,7 +315,8 @@ mark {
 
 p,
 pre {
-  margin: 1.1em 0 1.5em 0;
+  /* Sets 1 unit of vertical rhythm on the top and bottom margin. */
+  margin: rhythm(1) 0;
 }
 
 /*
