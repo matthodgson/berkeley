@@ -54,7 +54,7 @@ ul.nice-menu li {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/nice_menus_default\.scss}line{font-family:\0000344}}
 #navigation ul.nice-menu li li a,
 #navigation ul.nice-menu li li li a {
-  padding: 2px 8px 2px;
+  padding: 2px 8px 2px 9px;
 }
 
 /******************************
