@@ -146,7 +146,7 @@
         <?php
           print theme('nice_menus_main_menu', array(
             'direction' => 'down',
-            'depth' => -1,
+            'depth' => theme_get_setting('nice_menus_depth'),
           )); ?>
       </nav>
 

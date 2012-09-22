@@ -46,15 +46,16 @@
       );
 
       $form['berkeley_nice_menus']['main_menu_nice_menus'] = array(
-      '#type'           => 'checkbox',
-      '#title'          => t('Use Drop-Down Menus for Main Menu'),
-      '#default_value'  => theme_get_setting('main_menu_nice_menus'),
-      '#description'    => t('Check this box if you want to use drop-down menus for your main menu.
-                          This requires the Nice Menus module (http://drupal.org/project/nice_menus).
-                          Note: Typically, drop-down menus work best if you keep them simple (e.g., avoid many levels).
-                          See <a href="@href"> Drop-Down Menus: Use Sparingly</a>.',
-                          array('@href' => 'http://www.useit.com/alertbox/20001112.html',)),
-      '#weight'         => 50,
+        '#type'           => 'checkbox',
+        '#title'          => t('Use Drop-Down Menus for Main Menu'),
+        '#default_value'  => theme_get_setting('main_menu_nice_menus'),
+        '#description'    => t('Check this box if you want to use drop-down menus for your main menu.
+                            This requires the Nice Menus module (http://drupal.org/project/nice_menus).
+                            Set Menu Depth below.
+                            Note: Typically, drop-down menus work best if you keep them simple (e.g., avoid many levels).
+                            See <a href="@href"> Drop-Down Menus: Use Sparingly</a>.',
+                            array('@href' => 'http://www.useit.com/alertbox/20001112.html',)),
+        '#weight'         => 50,
       );
 
 
@@ -76,6 +77,34 @@
         'visible'      => array(
           // Display only when "Use Drop-Down Menus for Main Menu" is checked. See http://api.drupal.org/api/examples/form_example%21form_example_states.inc/function/form_example_states_form/7
           ':input[name="main_menu_nice_menus"]' => array('checked' => TRUE),
+        ),
+      );
+
+      $nice_menus_depth_options = array(
+        t('Nice Menu Depth') => array(
+          '-1'    => t('Display all children (-1)'),
+          '0'     => t('Display no children (0)'),
+          '1'     => t('Display 1 child (1)'),
+          '2'     => t('Display 2 children (2)'),
+          '3'     => t('Display 3 children (3)'),
+          '4'     => t('Display 4 children (4)'),
+          '5'     => t('Display 5 children (5)'),
+        ),
+      );
+
+      //Nice menus depth
+      $form['berkeley_nice_menus']['nice_menus_depth'] = array(
+        '#type' => 'select',
+        '#title' => t('Menu Depth'),
+        '#options' => $nice_menus_depth_options,
+        '#description' => t('The depth of the menu, i.e., the number of child levels starting with the parent selected above. Leave set to -1 to display all children and use 0 to display no children.'),
+        '#default_value' => theme_get_setting('nice_menus_depth'),
+        '#weight'         => 60,
+        '#states'        => array(
+          'visible'      => array(
+            // Display only when "Use Drop-Down Menus for Main Menu" is checked.  See http://api.drupal.org/api/examples/form_example%21form_example_states.inc/function/form_example_states_form/7
+            ':input[name="main_menu_nice_menus"]' => array('checked' => TRUE),
+          ),
         ),
       );
 
