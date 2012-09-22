@@ -1,5 +1,25 @@
 Berkeley Theme - CHANGELOG.md
 
+Berkeley 7.x-1.0-alpha4, 2012-09-21
+------------------------------------
+
+- General updates to styles; RWD performance
+- UI for setting Nice Menus depth (DUPCODE-54)
+- Icon overlap in Nice Menus (DUPCODE-60)
+- Data tables (DUPCODE-50)
+- Headings (DUPCODE-49)
+- Fix parent org overlap (DUPCODE-48)
+- Responsive objects, iframes, embeds
+- New Oahu panel layout; Edit Kauai panel layout
+- Video display in reusable content modal window
+- Links in TinyMCE body (OPENUCB-29)
+- Updated README
+- Image handling
+- Pages and panels styling
+- Panopoly dashboard styling
+- Basic print styling
+
+
 Berkeley 7.x-1.0-alpha3, 2012-08-16
 ------------------------------------
 - Fix base and heading font family selections in theme settings (DUPCODE-45)
