@@ -49,14 +49,16 @@ body {
 
 /*
  * Top Wrapper - Note: Background image can be selected via theme settings
+ * Load initial background image only if width is greater than 580px
  */
 
-#topwrapper {
-  background: $topwrapper-color $header-image no-repeat center top;
-  @include background-size(cover); //use Compass mixin for supported vendor prefixes
-  height: $header-height;
+@media only screen and (min-width: 580px) {
+  #topwrapper {
+    background: $topwrapper-color $header-image no-repeat center top;
+    @include background-size(cover); //use Compass mixin for supported vendor prefixes
+    height: $header-height;
+  }
 }
-
 
 /*
  * Header
