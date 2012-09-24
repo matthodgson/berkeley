@@ -269,12 +269,26 @@ th {
   text-align: left;
   text-transform: uppercase;
   vertical-align: top;
+
+  a:link,
+  a:visited {
+    color: #FFF;
+  }
 }
 
 td {
-  border-bottom: 1px solid #E9E9E9;
+  border-bottom: 1px solid $berkeley-light-grey;
   padding: 10px 20px;
   vertical-align: top;
+}
+
+table#blocks {
+  th {
+    padding: 5px 10px;
+  }
+  td {
+    padding: 0 10px;
+  }
 }
 
 tr.even { /* Some tables have rows marked even or odd. */
@@ -283,6 +297,13 @@ tr.even { /* Some tables have rows marked even or odd. */
 
 tr.odd {
   /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+.update {
+  padding-bottom: 10px;
+  td {
+    padding: 0;
+  }
 }
 
 div.messages { /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
