@@ -48,8 +48,16 @@ You do not need Sass to use this theme if you will not be changing the Sass file
 
 5. Moving to Production
 
-  Remember to change #environment = :production and turn on Drupal's CSS aggregation
-  before moving to Production (see sass/README.txt).
+  When ready to move to production, do the following (see sass/README.txt):
+
+  - Delete all CSS files by running: compass clean
+  - Edit the config.rb file to change environment to Production and turn off Firesass:
+    #environment = :development
+    environment = :production
+    firesass = false
+    #firesass = true
+  - Regenerate all the CSS files by running: compass compile
+  - Turn on CSS and JS aggregation (admin/config/development/performance)
 
 6. Adding custom styles
 
