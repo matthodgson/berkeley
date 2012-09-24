@@ -52,10 +52,10 @@ You do not need Sass to use this theme if you will not be changing the Sass file
 
   - Delete all CSS files by running: compass clean
   - Edit the config.rb file to change environment to Production and turn off Firesass:
-    #environment = :development
-    environment = :production
-    firesass = false
-    #firesass = true
+    - #environment = :development
+    - environment = :production
+    - firesass = false
+    - #firesass = true
   - Regenerate all the CSS files by running: compass compile
   - Turn on CSS and JS aggregation (admin/config/development/performance)
 
