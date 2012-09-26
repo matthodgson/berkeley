@@ -474,9 +474,12 @@ span.field-label { /* The inline field label used by the Fences module */
     font-size: .8em;
     color: $berkeley-med-grey;
 
-    .follow-us {
+    h3.follow-us {
       color: $berkeley-med-grey;
       font-size: 1em;
+      line-height: 1em;
+      font-weight: normal;
+      margin: 1em 0;
       float: left;
     }
     .social-link-icons {
