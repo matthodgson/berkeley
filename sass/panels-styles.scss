@@ -8,15 +8,11 @@
 /* Fieldable Panel Panes */
 .fieldable-panels-pane{
   overflow: hidden; //Hide overflow or will spill out of panels
-  padding: 10px 10px 20px 8px;
+  padding: 2px 10px 20px 8px;
 }
 
 /* Pane Content */
 .pane-content {
-  h2 {
-    //color: $berkeley-dark-blue;
-  }
-
   a:link,
   a:visited {
     color: $pane-content-link-color;
@@ -112,6 +108,13 @@
       text-decoration: underline;
     }
   }
+      p,
+    pre {
+    /* Reset p and pre margins if under a heading */
+    margin: 0 0 1.5em;
+    }
+
+
 }
 .pane-content {
   .view {
@@ -186,7 +189,13 @@
 /* Panels and Quick Tabs */
 ul.quicktabs-tabs.quicktabs-style-zen li {
   margin: 0;
+  a {
+    color: $berkeley-dark-blue !important;
+    font-weight: normal;
+  }
 }
+
+
 
 
 
