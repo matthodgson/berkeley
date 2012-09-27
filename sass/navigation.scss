@@ -134,6 +134,14 @@ li a.active {
       padding: 0;
     }
   }
+
+/* Remove ext link from secondary menu */
+  .ext {
+    background: none;
+  }
+  span.ext {
+    padding: 0px;
+  }
 }
 
 /*
