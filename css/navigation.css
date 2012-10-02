@@ -266,41 +266,56 @@ li a.active {
   font-size: .9em;
   color: #333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003283}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003285}}
+#footer-menus a:link, #footer-menus a:visited {
+  color: #828282;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003292}}
+#footer-menus a:hover, #footer-menus a:focus, #footer-menus a:active {
+  color: #23517b;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003299}}
+#footer-menus span.ext {
+  background: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003303}}
 #footer-menus ul.menu {
   margin: 0;
   padding: 0;
   /* submenu indent */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003307}}
 #footer-menus ul.menu li {
   display: inline;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003313}}
 #footer-menus ul.menu li a {
   display: block;
   color: #828282;
   font-size: .9em;
   line-height: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003321}}
 #footer-menus ul.menu li a:hover, #footer-menus ul.menu li a:focus, #footer-menus ul.menu li a:active {
   color: #23517b;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003326}}
 #footer-menus ul.menu li a.active {
   font-weight: bold;
   color: #003461;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003343}}
 #footer-menus ul.menu li.last a {
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003351}}
 #footer-menus ul.menu ul {
   padding-left: 15px;
 }
@@ -308,18 +323,18 @@ li a.active {
 /*
  * Footer links
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003362}}
 #footer {
   /* overflow: hidden; */
   /* Sometimes you want to prevent overlapping with main div. */
   font-size: 0.875em;
   line-height: 1.71429em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003367}}
 #footer .block {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003372}}
 #footer .block-menu .block-title,
 #footer .block-menu-block .block-title {
   position: absolute !important;
@@ -328,7 +343,7 @@ li a.active {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003377}}
 #footer ul.links,
 #footer ul.menu {
   /* Menu block links */
@@ -337,7 +352,7 @@ li a.active {
   text-align: left;
   /* LTR */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003382}}
 #footer ul.links li,
 #footer ul.menu li {
   /* A simple method to get navigation links to appear in one line. */
@@ -348,30 +363,30 @@ li a.active {
   list-style-type: none;
   list-style-image: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003390}}
 #footer span a {
   /* No padding for links within spans, e.g., "Powered by Drupal") */
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003394}}
 #footer a {
   color: #828282;
   text-decoration: none;
   padding: 0 0 0 .8em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003401}}
 #footer a:hover, #footer a:focus, #footer a:active {
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003408}}
 #footer ul li {
   border-left: 1px solid #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003412}}
 #footer ul li.first {
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003414}}
 #footer ul li.first a {
   padding: 0;
 }
@@ -379,73 +394,73 @@ li a.active {
 /*
  * Sidebar menus
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003406}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003426}}
 .sidebars {
   font-size: .85em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003409}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003429}}
 .sidebars .block-menu,
 .sidebars .block-menu-block {
   margin: 6px 0 !important;
   border-top: 1px solid #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003413}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003433}}
 .sidebars h2.block-title {
   text-transform: uppercase;
   font-size: .9em;
   color: #333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003418}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003438}}
 .sidebars ul.menu {
   margin: 0;
   padding: 0;
   /* submenu indent */
   /* reduce padding for deep nested menus */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003422}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003442}}
 .sidebars ul.menu li {
   display: inline;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003428}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003448}}
 .sidebars ul.menu li a {
   display: block;
   padding: 5px 0px 5px 20px;
   border-bottom: 1px dotted #CCC;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003435}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003455}}
 .sidebars ul.menu li a:hover, .sidebars ul.menu li a:focus, .sidebars ul.menu li a:active {
   color: #23517b;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003440}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003460}}
 .sidebars ul.menu li a.active {
   font-weight: bold;
   color: #003461;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003467}}
 .sidebars ul.menu li.expanded a.active-trail {
   background: url(../images/menu-expanded.png) no-repeat 5px 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003453}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003473}}
 .sidebars ul.menu li.leaf a.active-trail {
   background: url(../images/menu-leaf.png) no-repeat 5px 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003466}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003486}}
 .sidebars ul.menu ul {
   padding-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003473}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003493}}
 .sidebars ul.menu ul.menu ul.menu li a {
   padding: 2px 0 2px 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003477}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003497}}
 .sidebars ul.menu ul.menu ul.menu li.expanded a.active-trail {
   background: url(../images/menu-expanded.png) no-repeat 5px 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003482}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/navigation\.scss}line{font-family:\00003502}}
 .sidebars ul.menu ul.menu ul.menu li.leaf a.active-trail {
   background: url(../images/menu-leaf.png) no-repeat 5px 10px;
 }

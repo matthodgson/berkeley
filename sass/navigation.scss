@@ -280,6 +280,26 @@ li a.active {
     color: #333;
   }
 
+  a {
+    &:link,
+    &:visited {
+      color: $berkeley-med-grey;
+      font-size: .9em;
+      line-height: 1.5em;
+    }
+    &:hover,
+    &:focus,
+    &:active, {
+      color: $berkeley-med-blue;
+      text-decoration: none;
+    }
+  }
+
+  //* Remove ext link from footer menus */
+  span.ext {
+    background: none;
+  }
+
   ul.menu {
     margin: 0;
     padding: 0;
