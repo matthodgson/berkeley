@@ -280,11 +280,14 @@ li a.active {
     color: #333;
   }
 
+  p {
+    font-size: .9em
+  }
+
   a {
     &:link,
     &:visited {
       color: $berkeley-med-grey;
-      font-size: .9em;
       line-height: 1.5em;
     }
     &:hover,
