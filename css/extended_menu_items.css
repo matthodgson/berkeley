@@ -277,4 +277,103 @@
   ul.quicktabs-tabs.quicktabs-style-zen li a {
     padding: 4px 10px 0 10px;
   }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/extended_menu_items\.scss}line{font-family:\00003256}}
+  #secondary-menu {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/extended_menu_items\.scss}line{font-family:\00003260}}
+  #secondary-menu-mobile {
+    display: block;
+    border-top: 1px dotted #aaa;
+    clear: both;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/extended_menu_items\.scss}line{font-family:\00003265}}
+  #secondary-menu-mobile .block {
+    margin-bottom: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/extended_menu_items\.scss}line{font-family:\00003270}}
+  #secondary-menu-mobile .block-menu .block-title,
+  #secondary-menu-mobile .block-menu-block .block-title {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/extended_menu_items\.scss}line{font-family:\00003275}}
+  #secondary-menu-mobile ul.links,
+  #secondary-menu-mobile ul.menu {
+    /* Menu block links */
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    /* LTR */
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/extended_menu_items\.scss}line{font-family:\00003280}}
+  #secondary-menu-mobile ul.links li,
+  #secondary-menu-mobile ul.menu li {
+    /* A simple method to get navigation links to appear in one line. */
+    float: left;
+    /* LTR */
+    padding: 0 10px 0 0;
+    /* LTR */
+    list-style-type: none;
+    list-style-image: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/extended_menu_items\.scss}line{font-family:\00003288}}
+  #secondary-menu-mobile a {
+    color: #828282;
+    text-decoration: none;
+    padding: 0 1em 0 0;
+    font-size: 0.875em;
+    line-height: 1.71429em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/extended_menu_items\.scss}line{font-family:\00003297}}
+  #footer-social #social-links {
+    float: left;
+    clear: both;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/extended_menu_items\.scss}line{font-family:\00003304}}
+  #ucbseal,
+  #secondary-menu-mobile,
+  #footer {
+    float: left;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/extended_menu_items\.scss}line{font-family:\00003310}}
+  #copyright,
+  #secondary-menu-mobile,
+  #footer {
+    padding: 0;
+  }
+
+  /* Tables */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/extended_menu_items\.scss}line{font-family:\00003318}}
+  table {
+    margin-top: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/extended_menu_items\.scss}line{font-family:\00003322}}
+  th {
+    display: block;
+    font-weight: normal;
+    font-style: italic;
+    font-size: .8em;
+    line-height: 1.2em;
+    padding: 0 0 0 8px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/extended_menu_items\.scss}line{font-family:\00003333}}
+  td {
+    display: block;
+    padding-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/extended_menu_items\.scss}line{font-family:\00003336}}
+  td img {
+    margin: 0 !important;
+  }
 }

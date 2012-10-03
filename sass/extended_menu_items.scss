@@ -253,7 +253,92 @@
     padding: 4px 10px 0 10px;
   }
 
-} //End Media Query: 0px to 959px
+  #secondary-menu {
+    display: none;
+  }
+
+  #secondary-menu-mobile {
+    display: block;
+    border-top: 1px dotted #aaa;
+    clear: both;
+
+   .block {
+     margin-bottom: 0;
+   }
+
+   .block-menu .block-title,
+   .block-menu-block .block-title {
+     @include element-invisible();
+   }
+
+   ul.links, /* Footer menu links */
+   ul.menu { /* Menu block links */
+     margin: 0;
+     padding: 0;
+     text-align: left; /* LTR */
+
+     li { /* A simple method to get navigation links to appear in one line. */
+       float: left; /* LTR */
+       padding: 0 10px 0 0; /* LTR */
+       list-style-type: none;
+       list-style-image: none;
+     }
+   }
+
+   a {
+     color: $berkeley-med-grey;
+     text-decoration: none;
+     padding: 0 1em 0 0;
+     @include adjust-font-size-to(14px);
+   }
+
+ }
+
+  #footer-social #social-links {
+    float: left;
+    clear: both;
+  }
+
+  #ucbseal,
+  #secondary-menu-mobile,
+  #footer {
+    float: left;
+  }
+
+  #copyright,
+  #secondary-menu-mobile,
+  #footer {
+    padding: 0;
+  }
+
+  #copyright {
+  }
+
+  /* Tables */
+  table {
+    margin-top: 0;
+  }
+
+  th {
+    display: block;
+    font: {
+      weight: normal;
+      style: italic;
+      size: .8em;
+    }
+    line-height: 1.2em;
+    padding: 0 0 0 8px;
+  }
+
+  td {
+    display: block;
+    padding-right: 0;
+    img {
+      margin: 0 !important;
+    }
+  }
+
+} //End Media Query: 581px to 1023px
 
 
 
