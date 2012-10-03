@@ -323,6 +323,13 @@ function berkeley_preprocess_page(&$variables, $hook) {
   $search_box = drupal_render($search_box_form);
   $variables['search_box'] = (user_access('search content')) ? $search_box : NULL;
 
+  // Adjust navigation if extended menu items is checked
+  if (theme_get_setting('extended_menu_items')) {
+    //Build path to css
+    $css_file = drupal_get_path('theme', 'berkeley') . '/css/extended_menu_items.css';
+    drupal_add_css($css_file, array('group' => CSS_THEME));
+  }
+
   // Add user's custom CSS for Nice Menus if specified.
   if ($custom_nice_menu = theme_get_setting('nice_menus_custom_css')) {
     drupal_add_css('$custom_nice_menu');

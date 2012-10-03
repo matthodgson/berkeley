@@ -382,6 +382,24 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
                         array('@href' => 'http://www.addthis.com/',)),
   );
 
+  // Extended main menu
+  $form['berkeley_settings']['extended_menu'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('Extended Main Menu'),
+    '#collapsible' => TRUE,
+    '#collapsed' => FALSE,
+    '#description'   => t('This theme is designed to work with a limited number of main menu items (e.g., fewer than 6),
+                           with words that are short and meaningful.
+                           If you need to slightly extend the number of main menu items, check the following box.'),
+  );
+
+  //Optional Extended Main Menu Items
+  $form['berkeley_settings']['extended_menu']['extended_menu_items'] = array(
+    '#type'          => 'checkbox',
+    '#title'         => t('Extend number of main menu items'),
+    '#default_value' => theme_get_setting('extended_menu_items'),
+  );
+
   // Remove some of the base theme's settings.
   /* -- Delete this line if you want to turn off this setting.
   unset($form['themedev']['zen_wireframes']); // We don't need to toggle wireframes on this site.

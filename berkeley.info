@@ -153,6 +153,7 @@ settings[include_social_media]     = 0
 settings[sharing_addthis]          = 0
 settings[main_menu_nice_menus]     = 0
 settings[nice_menus_depth]         = -1
+settings[extended_menu_items]     = 0
 
 ; To make this sub-theme an admin theme with shortcut links next to titles,
 ; uncomment the line below.
