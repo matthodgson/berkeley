@@ -8,13 +8,13 @@
 
 @import "base";
 
-/* Note: At widths greater than 1260px, use typical styling. */
+/* Note: At widths greater than 1260px, use standard styling. */
 
 /**
- * Media Query: 960px to 1259px
+ * Media Query: 1024px to 1259px
  */
 
-@media only screen and (min-width: 960px) and (max-width: 1259px) {
+@media only screen and (min-width: 1024px) and (max-width: 1259px) {
   /* Navigation bar -- override styles in navigation.scss */
 
   #navigation li a {
@@ -25,12 +25,12 @@
 }
 
 /**
- * Media Query: 581px to 959px
- * If extended menu items used, will have to switch to mobile nav at widths less than 960px
+ * Media Query: 581px to 1023px
+ * If extended menu items used, will have to switch to mobile nav at widths less than 1024px
  * At widths less than 580px, see mobilesearch.scss
  */
 
-@media only screen and (min-width: 581px) and (max-width: 959px) {
+@media only screen and (min-width: 581px) and (max-width: 1023px) {
 
   #topwrapper,
   #search-mobile,
