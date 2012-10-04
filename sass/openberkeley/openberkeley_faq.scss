@@ -1,0 +1,34 @@
+/**
+ * @file
+ * Open Berkeley: FAQ styles;
+ *
+ * Used only if Open Berkeley - FAQ is checked in Berkeley theme settings (admin/appearance/settings/berkeley)
+ * Requires FAQ module: http://drupal.org/project/faq
+ *
+ */
+
+@import "base";
+
+.faq-content {
+  .faq-category-menu {
+    border-bottom: $border-solid-med-grey;
+  }
+
+  .field-name-field-category {
+    display: none; //Don't display faq categories
+  }
+
+  .faq-question {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .faq-answer {
+    border-bottom: $border-solid-med-grey;
+
+    ul.links li a{ //Back to top
+      font-size: .85em;
+      color: $berkeley-dark-blue;
+    }
+  }
+}

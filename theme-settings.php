@@ -423,6 +423,16 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
     '#default_value' => theme_get_setting('openberkeley_newsarchive'),
   );
 
+  //Standard styling for FAQ
+  if (module_exists('faq')) {
+    $form['berkeley_settings']['openberkeley']['openberkeley_faq'] = array(
+    '#type'          => 'checkbox',
+    '#title'         => t('Add standard styling for FAQ (requires <a href="@href">FAQ module</a>)',
+                        array('@href' => 'http://drupal.org/project/faq',)),
+    '#default_value' => theme_get_setting('openberkeley_faq'),
+  );
+  }
+
   // Remove some of the base theme's settings.
   /* -- Delete this line if you want to turn off this setting.
   unset($form['themedev']['zen_wireframes']); // We don't need to toggle wireframes on this site.

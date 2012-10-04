@@ -177,22 +177,25 @@ td.menu-disabled {
 /*
  * Styles for theme settings
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/forms\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/forms\.scss}line{font-family:\00003162}}
 #system-theme-settings .fieldset-description,
-#system-theme-settings .form-item .description {
+#system-theme-settings .form-item .description,
+#system-theme-settings .form-type-checkbox {
   margin-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/forms\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/forms\.scss}line{font-family:\00003164}}
 #system-theme-settings .fieldset-description a:link, #system-theme-settings .fieldset-description a:visited,
 #system-theme-settings .form-item .description a:link,
-#system-theme-settings .form-item .description a:visited {
+#system-theme-settings .form-item .description a:visited,
+#system-theme-settings .form-type-checkbox a:link,
+#system-theme-settings .form-type-checkbox a:visited {
   color: #23517b;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/forms\.scss}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/forms\.scss}line{font-family:\00003169}}
 #system-theme-settings fieldset {
   border: 1px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/forms\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/forms\.scss}line{font-family:\00003172}}
 #system-theme-settings fieldset.collapsed {
   border: none;
 }
@@ -200,7 +203,7 @@ td.menu-disabled {
 /*
  * Autocomplete - Suggestion list
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/forms\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/forms\.scss}line{font-family:\00003182}}
 #autocomplete li {
   list-style: none;
 }
@@ -209,7 +212,7 @@ td.menu-disabled {
  * Styles for Node Edit Form
  */
 /* Display underline for links in TinyMCE body window */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/forms\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/forms\.scss}line{font-family:\00003193}}
 #tinymce a:link,
 #tinymce a:visited {
   text-decoration: underline !important;

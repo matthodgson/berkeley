@@ -1,0 +1,41 @@
+/**
+ * @file
+ * Open Berkeley: FAQ styles;
+ *
+ * Used only if Open Berkeley - FAQ is checked in Berkeley theme settings (admin/appearance/settings/berkeley)
+ * Requires FAQ module: http://drupal.org/project/faq
+ *
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/social-link-icons\/\*\.png}line{font-family:\0000398}}
+.social-link-icons-sprite {
+  background: url('../../images/social-link-icons-sa0e1f4b582.png') no-repeat;
+}
+
+/* 22px for page */
+/* 20px */
+/* 17px */
+/* 14px */
+/* 12px */
+/* 10.5px */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000313}}
+.faq-content .faq-category-menu {
+  border-bottom: 1px solid #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000317}}
+.faq-content .field-name-field-category {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000321}}
+.faq-content .faq-question {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000326}}
+.faq-content .faq-answer {
+  border-bottom: 1px solid #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000329}}
+.faq-content .faq-answer ul.links li a {
+  font-size: .85em;
+  color: #003461;
+}

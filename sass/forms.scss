@@ -158,7 +158,8 @@ td.menu-disabled {
 
 #system-theme-settings {
   .fieldset-description,
-  .form-item .description {
+  .form-item .description,
+  .form-type-checkbox {
     margin-left: 0;
     a:link, a:visited {
       color: $berkeley-med-blue;
