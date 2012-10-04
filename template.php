@@ -330,6 +330,18 @@ function berkeley_preprocess_page(&$variables, $hook) {
     drupal_add_css($css_file, array('group' => CSS_THEME));
   }
 
+  /**
+   * Open Berkeley styling
+   */
+
+  //Add standard styling for News Archive view
+  if (theme_get_setting('openberkeley_newsarchive')) {
+    //Build path to css
+    $css_file = drupal_get_path('theme', 'berkeley') . '/css/openberkeley/openberkeley_newsarchive.css';
+    drupal_add_css($css_file, array('group' => CSS_THEME));
+  }
+
+
   // Add user's custom CSS for Nice Menus if specified.
   if ($custom_nice_menu = theme_get_setting('nice_menus_custom_css')) {
     drupal_add_css('$custom_nice_menu');

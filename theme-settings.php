@@ -400,6 +400,29 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
     '#default_value' => theme_get_setting('extended_menu_items'),
   );
 
+  /**
+   * Options for Open Berkeley
+   */
+
+  // Open Berkeley section
+  $form['berkeley_settings']['openberkeley'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('Open Berkeley'),
+    '#collapsible' => TRUE,
+    '#collapsed' => FALSE,
+    '#description'   => t('This theme is designed to work with the Open Berkeley distribution.
+                           For more information about Open Berkeley, contact <a href="@href">IST Drupal</a>.
+                           Check the appropriate items below to apply standard styling.',
+                           array('@href' => 'mailto:ist-drupal@lists.berkeley.edu',)),
+  );
+
+  //Standard styling for News Archive view
+  $form['berkeley_settings']['openberkeley']['openberkeley_newsarchive'] = array(
+    '#type'          => 'checkbox',
+    '#title'         => t('Add standard styling for News Archive view'),
+    '#default_value' => theme_get_setting('openberkeley_newsarchive'),
+  );
+
   // Remove some of the base theme's settings.
   /* -- Delete this line if you want to turn off this setting.
   unset($form['themedev']['zen_wireframes']); // We don't need to toggle wireframes on this site.
