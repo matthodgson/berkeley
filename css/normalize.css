@@ -206,33 +206,33 @@ h1 + p, h1 + pre, h2 + p, h2 + pre, h3 + p, h3 + pre, h4 + p, h4 + pre, h5 + p, 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize\.scss}line{font-family:\00003218}}
 h1 {
   /* Sets the font-size and line-height while keeping a proper vertical rhythm. */
-  font-size: 1.571em;
-  line-height: 1.909em;
+  font-size: 1.5714em;
+  line-height: 1.90913em;
   line-height: .9545em;
   /* 21px for page */
-  margin-bottom: 0.786em;
+  margin-bottom: 0.7857em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize\.scss}line{font-family:\00003225}}
 h2 {
-  font-size: 1.429em;
-  line-height: 2.1em;
+  font-size: 1.4286em;
+  line-height: 2.09996em;
   color: #003461;
   line-height: 1.05em;
   /* 21px */
-  margin-bottom: 0.714em;
+  margin-bottom: 0.7143em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize\.scss}line{font-family:\00003232}}
 h3 {
-  font-size: 1.214em;
-  line-height: 1.235em;
+  font-size: 1.2143em;
+  line-height: 1.23528em;
   color: #003461;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2353em;
   /* 21px */
-  margin-bottom: 0.607em;
+  margin-bottom: 0.60715em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize\.scss}line{font-family:\00003241}}
@@ -248,12 +248,12 @@ h4 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize\.scss}line{font-family:\00003249}}
 h5 {
-  font-size: 0.857em;
-  line-height: 1.75em;
+  font-size: 0.8571em;
+  line-height: 1.75009em;
   text-transform: uppercase;
   line-height: 1.75em;
   /* 21px */
-  margin-bottom: 0.429em;
+  margin-bottom: 0.42855em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize\.scss}line{font-family:\00003256}}
@@ -526,17 +526,17 @@ fieldset {
   margin: 0 2px;
   /* Apply borders and padding that keep the vertical rhythm. */
   border-top-style: solid;
-  border-top-width: 0.063em;
-  padding-top: 0.462em;
+  border-top-width: 0.0625em;
+  padding-top: 0.4625em;
   border-bottom-style: solid;
-  border-bottom-width: 0.063em;
-  padding-bottom: 0.913em;
+  border-bottom-width: 0.0625em;
+  padding-bottom: 0.9125em;
   border-left-style: solid;
-  border-left-width: 0.063em;
-  padding-left: 0.913em;
+  border-left-width: 0.0625em;
+  padding-left: 0.9125em;
   border-right-style: solid;
-  border-right-width: 0.063em;
-  padding-right: 0.913em;
+  border-right-width: 0.0625em;
+  padding-right: 0.9125em;
 }
 
 /*

@@ -46,7 +46,7 @@
 .form-item .description {
   /* The descriptive help text (separate from the label) */
   font-size: 0.875em;
-  line-height: 1.714em;
+  line-height: 1.71429em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/forms\.scss}line{font-family:\0000337}}
 .form-checkboxes .form-item, .form-radios .form-item {
