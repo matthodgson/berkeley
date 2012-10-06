@@ -645,7 +645,7 @@ span.field-label {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003533}}
 #seal-copyright {
   width: 80%;
-  margin: 20px auto;
+  margin: 16px auto;
 }
 
 /*
@@ -661,7 +661,7 @@ span.field-label {
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003549}}
 #copyright {
-  margin: 15px 0;
+  margin: 19px 0;
   float: right;
   color: #828282;
   text-decoration: none;

@@ -191,9 +191,9 @@ function berkeley_preprocess_page(&$variables, $hook) {
   $variables['ucbseal'] = t('<a href="@href"><img alt="@alt" id="ucbseal-img" src="@src" width="@width" height="@height" /></a>', array(
     '@href'   => 'http://www.berkeley.edu',
     '@alt'    => 'University of California, Berkeley',
-    '@src'    => '/' . drupal_get_path('theme', 'berkeley') . '/images/ucb-seal.png',
-    '@width'  => '280',
-    '@height' => '50',
+    '@src'    => '/' . drupal_get_path('theme', 'berkeley') . '/images/uc-seal.png',
+    '@width'  => '290',
+    '@height' => '60',
   ));
 
   // If Quick Links is enabled but Javascript is disabled, link to node provided in theme setting
