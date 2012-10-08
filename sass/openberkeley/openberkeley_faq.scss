@@ -10,25 +10,61 @@
 @import "base";
 
 .faq-content {
+  /* Faux panel for FAQ content - will need to override if panelized */
+  border: $border-solid-light-grey;
+  margin: 20px 0px 0px 0px;
+  padding: 8px 14px 10px;
+  background: #FFF url('../../images/ltgrey_gradient_1x300.png') repeat-x left top;
+
   .faq-category-menu {
-    border-bottom: $border-solid-med-grey;
+    border-top: $border-solid-med-grey;
   }
 
   .field-name-field-category {
     display: none; //Don't display faq categories
   }
 
+  .faq-ul-questions-top li a {
+    color: $berkeley-dark-blue;
+    text-decoration: underline;
+  }
+
   .faq-question {
     font-weight: bold;
     font-size: 1.2em;
+    border-top: $border-solid-med-grey;
   }
 
   .faq-answer {
-    border-bottom: $border-solid-med-grey;
-
     ul.links li a{ //Back to top
       font-size: .85em;
       color: $berkeley-dark-blue;
     }
   }
 }
+
+/* Remove top borders */
+.faq > div:first-of-type {
+  border-top: none;
+    > div:nth-child(2) {
+      > div:first-of-type {
+        > div:nth-child(2) {
+          border-top: none;
+        }
+      }
+  }
+}
+
+/* Collapsible FAQ styling */
+.faq-question-answer {
+  .faq-question {
+    font-weight: normal;
+    border-top: $border-dotted-med-grey;
+    padding: 5px;
+  }
+  &:first-of-type {
+    padding-top: 10px;
+  }
+
+}
+

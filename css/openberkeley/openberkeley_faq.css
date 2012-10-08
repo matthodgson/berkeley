@@ -17,25 +17,57 @@
 /* 14px */
 /* 12px */
 /* 10.5px */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000313}}
-.faq-content .faq-category-menu {
-  border-bottom: 1px solid #cccccc;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000312}}
+.faq-content {
+  /* Faux panel for FAQ content - will need to override if panelized */
+  border: 1px solid #d4d4d4;
+  margin: 20px 0px 0px 0px;
+  padding: 8px 14px 10px;
+  background: white url("../../images/ltgrey_gradient_1x300.png") repeat-x left top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000319}}
+.faq-content .faq-category-menu {
+  border-top: 1px solid #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000323}}
 .faq-content .field-name-field-category {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000327}}
+.faq-content .faq-ul-questions-top li a {
+  color: #003461;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000332}}
 .faq-content .faq-question {
   font-weight: bold;
   font-size: 1.2em;
+  border-top: 1px solid #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000326}}
-.faq-content .faq-answer {
-  border-bottom: 1px solid #cccccc;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000339}}
 .faq-content .faq-answer ul.links li a {
   font-size: .85em;
   color: #003461;
+}
+
+/* Remove top borders */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000347}}
+.faq > div:first-of-type {
+  border-top: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000351}}
+.faq > div:first-of-type > div:nth-child(2) > div:first-of-type > div:nth-child(2) {
+  border-top: none;
+}
+
+/* Collapsible FAQ styling */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000360}}
+.faq-question-answer .faq-question {
+  font-weight: normal;
+  border-top: 1px dotted #cccccc;
+  padding: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000365}}
+.faq-question-answer:first-of-type {
+  padding-top: 10px;
 }
