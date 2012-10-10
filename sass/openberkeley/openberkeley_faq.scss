@@ -16,6 +16,12 @@
   padding: 8px 14px 10px;
   background: #FFF url('../../images/ltgrey_gradient_1x300.png') repeat-x left top;
 
+  a:link,
+  a:visited {
+    color: $pane-content-link-color;
+    text-decoration: underline;
+  }
+
   .faq-category-menu {
     border-top: $border-solid-med-grey;
   }
@@ -39,6 +45,7 @@
     ul.links li a{ //Back to top
       font-size: .85em;
       color: $berkeley-dark-blue;
+      text-decoration: none;
     }
   }
 }
@@ -61,6 +68,11 @@
     font-weight: normal;
     border-top: $border-dotted-med-grey;
     padding: 5px;
+    a:link,
+    a:visited {
+      color: $font-base-color;
+      text-decoration: none;
+    }
   }
   &:first-of-type {
     padding-top: 10px;
