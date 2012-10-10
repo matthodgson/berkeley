@@ -1,5 +1,24 @@
 Berkeley Theme - CHANGELOG.md
 
+Berkeley 7.x-1.0-alpha5, 2012-10-10
+------------------------------------
+- FAQ links (DUPCODE-51)
+- Main menu overflow IE7 (DUPCODE-44)
+- Secondary nav tweaks
+- IE8 Fixes (DUPCODE-71)
+- Views styling (DUPCODE-66)
+- Updated UC Seal (DUPCODE-70)
+- FAQ styling (DUPCODE-51)
+- Updates to _base.scss (regenerate css files)
+- Open Berkeley styling: new section in theme settings (DUPCODE-68/67)
+- Extended menu items (DUPCODE-44/64)
+- Styling for 1st-4th footer regions (DUPCODE-62)
+- Remove extlink icon from secondary menu
+- Panel margins/padding (DUPCODE-62)
+- Admin styling
+- Social links styling
+
+
 Berkeley 7.x-1.0-alpha4, 2012-09-21
 ------------------------------------
 
