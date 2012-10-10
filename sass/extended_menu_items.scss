@@ -10,6 +10,15 @@
 
 /* Note: At widths greater than 1260px, use standard styling. */
 
+/*
+ * Conditional classes for IE7
+ */
+.lt-ie8 {
+  #navigation {
+    font-size: .8em !important;
+  }
+}
+
 /**
  * Media Query: 1024px to 1259px
  */
