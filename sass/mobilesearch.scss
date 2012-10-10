@@ -71,6 +71,9 @@
     a:focus {
       text-decoration: none;
     }
+    h2#site-slogan {
+      color: $berkeley-gold;
+    }
   }
 
   #site-name {
@@ -82,6 +85,14 @@
     a:visited {
       color: #fff;
     }
+  }
+
+  #quick-links-widget {
+    display: none; //TODO: Revisit; IE8 quicklinks is erratic
+  }
+
+  #secondary-menu {
+    right: 110px; //If no quicklinks, restore standard positioning
   }
 
   /* IE8 Fixes */
@@ -100,7 +111,7 @@
 
   #name-and-slogan {
     position: relative !important;
-    top: 110px;
+    top: 50px;
     display: inline;
   }
 
