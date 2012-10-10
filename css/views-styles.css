@@ -13,6 +13,18 @@
 /* 14px */
 /* 12px */
 /* 10.5px */
+/* Optional Views styling - create CSS class in field and label HTML in view field settings */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000310}}
+.view-content .views-label-small {
+  font-size: .85em;
+  line-height: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000314}}
+.view-content .views-field-small {
+  font-size: .85em;
+  padding-bottom: 10px;
+}
+
 /*
  * Views' admin tabs
  *
@@ -21,18 +33,18 @@
  * pages. If your sub-theme isn't used for admin pages, you can remove this
  * entire section.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000330}}
 .views-displays .secondary li {
   float: none;
   margin: 0 6px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000336}}
 .views-displays .secondary a:link,
 .views-displays .secondary a:visited {
   text-shadow: none;
   padding: 2px 7px 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000341}}
 .views-displays .secondary .open > a {
   -webkit-border-radius: 7px 7px 0 0;
   -moz-border-radius: 7px 7px 0 0;
@@ -40,15 +52,15 @@
   -o-border-radius: 7px 7px 0 0;
   border-radius: 7px 7px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000343}}
 .views-displays .secondary .open > a:hover {
   color: #333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000348}}
 .views-displays .secondary .action-list li {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000350}}
 .views-displays .secondary .action-list li:first-child {
   -webkit-border-radius: 0 7px 0 0;
   -moz-border-radius: 0 7px 0 0;
@@ -56,7 +68,7 @@
   -o-border-radius: 0 7px 0 0;
   border-radius: 0 7px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/views-styles\.scss}line{font-family:\0000353}}
 .views-displays .secondary .action-list li:last-child {
   -webkit-border-radius: 0 0 7px 7px;
   -moz-border-radius: 0 0 7px 7px;

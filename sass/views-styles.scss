@@ -5,6 +5,18 @@
 
 @import "base";
 
+/* Optional Views styling - create CSS class in field and label HTML in view field settings */
+.view-content {
+  .views-label-small {
+    font-size: .85em;
+    line-height: 1em;
+  }
+  .views-field-small {
+    font-size: .85em;
+    padding-bottom: 10px;
+  }
+}
+
 
 /*
  * Views' admin tabs
