@@ -129,9 +129,12 @@ li a.active {
 
   }
   ul {
+    &.inline li {
+      padding: 0;
+    }
+
     li.last a {
       border: none;
-      padding: 0;
     }
   }
 
