@@ -67,10 +67,17 @@
   #name-and-slogan {
     position: relative !important;
     margin: 0px 0px 0px 10px;
+    top: 110px;
+
+    &.with-slogan {
+      top: 50px;
+    }
+
     a:hover,
     a:focus {
       text-decoration: none;
     }
+
     h2#site-slogan {
       color: $berkeley-gold;
     }
@@ -111,7 +118,6 @@
 
   #name-and-slogan {
     position: relative !important;
-    top: 50px;
     display: inline;
   }
 
