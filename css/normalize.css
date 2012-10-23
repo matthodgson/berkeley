@@ -16,7 +16,7 @@
 
 /* 22px for page */
 /* 20px */
-/* 17px */
+/* 15.5px */
 /* 14px */
 /* 12px */
 /* 10.5px */
@@ -225,14 +225,14 @@ h2 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize\.scss}line{font-family:\00003232}}
 h3 {
-  font-size: 1.2143em;
-  line-height: 1.23528em;
+  font-size: 1.1071em;
+  line-height: 1.35489em;
   color: #003461;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2353em;
   /* 21px */
-  margin-bottom: 0.60715em;
+  margin-bottom: 0.55355em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/normalize\.scss}line{font-family:\00003241}}
