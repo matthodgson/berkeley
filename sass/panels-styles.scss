@@ -135,7 +135,9 @@
   }
 }
 
-/* Panel Styles - Panopoly Layout Overrides - Extend media query */
+/* Panel Styles - Panopoly Layout Overrides - Extend media queries */
+
+/* Bryant Flipped Layout */
 .bryant-flipped-sidebar {
   .panel-pane h2 {
     font-size: 1.2em;
@@ -151,6 +153,8 @@
 
 
 @media only screen and (max-width: 680px) {
+
+  /* Bryant Flipped Layout */
   .bryant-flipped-sidebar,
   .bryant-flipped-content {
     width: 100%;
@@ -161,7 +165,46 @@
     margin-right: 0;
   }
 
-}
+  .brenham-flipped-content,
+  .brenham-flipped-sidebar {
+    width: 100%;
+    float: none;
+  }
+
+  /* Brenham Flipped Layout */
+  .brenham-flipped-content-inner {
+    margin-right: 0;
+  }
+
+  /* Burr Flipped Layout */
+  .burr-flipped-content,
+  .burr-flipped-sidebar {
+    width: 100%;
+    float: none;
+  }
+
+  .burr-flipped-content-inner {
+    margin-right: 0;
+  }
+
+
+} //End Media Query: 0px to 680px
+
+@media only screen and (max-width: 960px) {
+
+  /* Geary layout */
+  .geary-column-content-region,
+  .geary-column3 {
+    width: 100%;
+    float: none;
+  }
+
+  .geary-column-content-region-inner {
+    margin-right: 0;
+  }
+} //End Media Query: 0px to 960px
+
+
 
 /* Panel Styles */ //Consider as panel style
 .panels-dashboard,
