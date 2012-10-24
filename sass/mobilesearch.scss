@@ -182,10 +182,10 @@
 }
 
 /**
- * Media Query: 0px to 580px
+ * Media Query: 0px to 680px
  */
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 680px) {
 //@media only screen and (max-width: -ucb-pem(580)) {
 
   #topwrapper,
@@ -417,7 +417,7 @@
     padding: 4px 10px 0 10px;
   }
 
-} //End Media Query: 0px to 580px
+} //End Media Query: 0px to 680px
 
 
 /**
@@ -576,6 +576,12 @@
   .node img {
     max-width: 50%;
   }
+  #navigation li a {
+    font-size: .82em; //was 0.9375em, set by adjust-font-size
+    line-height: 1.9em; //was 1.6em, set by adjust-font-size
+    padding: 10px 7px 8px; //was 10px 10px 8px;
+  }
+
 } //End Media Query: 681px to 800px
 
 /**
