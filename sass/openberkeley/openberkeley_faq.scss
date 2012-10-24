@@ -80,3 +80,26 @@
 
 }
 
+/* View footer -- to use, add <span class="faq-footer">; divs aren't allowed in footer text area;
+ * Add to allowed classes for appropriate text format
+ */
+.faq-footer {
+  display: block;
+  border-top: $border-dotted-med-grey;
+  margin-top: 10px;
+  font-size: .875em;
+}
+
+/* Add faq-body class to view field as needed; switch to use span rather than div
+ * Add to allowed classes for appropriate text format
+ */
+.faq-body {
+  p:first-of-type {
+    margin: 0;
+    display: inline;
+  }
+  ul {
+    margin: 0;
+  }
+}
+

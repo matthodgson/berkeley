@@ -84,3 +84,27 @@
 .faq-question-answer:first-of-type {
   padding-top: 10px;
 }
+
+/* View footer -- to use, add <span class="faq-footer">; divs aren't allowed in footer text area;
+ * Add to allowed classes for appropriate text format
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000386}}
+.faq-footer {
+  display: block;
+  border-top: 1px dotted #cccccc;
+  margin-top: 10px;
+  font-size: .875em;
+}
+
+/* Add faq-body class to view field as needed; switch to use span rather than div
+ * Add to allowed classes for appropriate text format
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\0000397}}
+.faq-body p:first-of-type {
+  margin: 0;
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_faq\.scss}line{font-family:\00003101}}
+.faq-body ul {
+  margin: 0;
+}
