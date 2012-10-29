@@ -279,11 +279,13 @@ h2.comment-form {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003245}}
 .image-right {
   float: right;
+  margin-left: 10px !important;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003246}}
 .image-left {
   float: left;
+  margin-right: 10px !important;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/pages\.scss}line{font-family:\00003247}}

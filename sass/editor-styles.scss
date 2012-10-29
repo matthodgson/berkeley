@@ -13,8 +13,14 @@
 
 
 /* Image positioning */
-.image-right {float: right;}
-.image-left {float: left;}
+.image-right {
+  float: right;
+  margin-left: 10px !important;
+}
+.image-left {
+  float: left;
+  margin-right: 10px !important;
+}
 .image-center {
   display: block !important;
   margin: auto !important;
