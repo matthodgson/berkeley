@@ -118,8 +118,8 @@
   max-height: 3em;
   position: absolute;
   top: 0;
-  width: 98%;
-  min-width: 98%;
+  width: 800px;
+  min-width: 800px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003116}}
 .lt-ie9 .sidebar-first #content {

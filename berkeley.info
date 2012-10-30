@@ -129,33 +129,34 @@ features[] = secondary_menu
 
 
 ; Set the default values of settings on the theme-settings.php form.
+; Respond.js is disabled by default - may cause display issues with <IE9 if enabled
 
-settings[default_logo]             = 0
-settings[zen_breadcrumb]           = yes
-settings[zen_breadcrumb_separator] = ' › '
-settings[zen_breadcrumb_home]      = 1
-settings[zen_breadcrumb_trailing]  = 1
-settings[zen_breadcrumb_title]     = 0
-settings[zen_skip_link_anchor]     = main-menu
-settings[zen_skip_link_text]       = Jump to navigation
-settings[zen_html5_respond_meta][] = respond
-settings[zen_html5_respond_meta][] = html5
-settings[zen_html5_respond_meta][] = meta
-settings[zen_rebuild_registry]     = 1
-settings[zen_wireframes]           = 0
-settings[berkeley_header_image] = header-sathergate-1.png
-settings[berkeley_base_font_family] = Helvetica Neue
-settings[berkeley_font_size] = 100%
-settings[berkeley_heading_font_family] = Helvetica Neue
-settings[include_quick_links]      = 0
-settings[include_social_media]     = 0
-;settings[berkeley_lowercase_headings] = 0
-settings[sharing_addthis]          = 0
-settings[main_menu_nice_menus]     = 0
-settings[nice_menus_depth]         = -1
-settings[extended_menu_items]      = 0
-settings[openberkeley_newsarchive] = 0
-settings[openberkeley_faq] = 0
+settings[default_logo]                = 0
+settings[zen_breadcrumb]              = yes
+settings[zen_breadcrumb_separator]    = ' › '
+settings[zen_breadcrumb_home]         = 1
+settings[zen_breadcrumb_trailing]     = 1
+settings[zen_breadcrumb_title]        = 0
+settings[zen_skip_link_anchor]        = main-menu
+settings[zen_skip_link_text]          = Jump to navigation
+;settings[zen_html5_respond_meta][]   = respond
+settings[zen_html5_respond_meta][]    = html5
+settings[zen_html5_respond_meta][]    = meta
+settings[zen_rebuild_registry]        = 1
+settings[zen_wireframes]              = 0
+settings[berkeley_header_image]       = header-sathergate-1.png
+settings[berkeley_base_font_family]   = Helvetica Neue
+settings[berkeley_font_size]          = 100%
+settings[berkeley_heading_font_family]= Helvetica Neue
+settings[include_quick_links]         = 0
+settings[include_social_media]        = 0
+;settings[berkeley_lowercase_headings]= 0
+settings[sharing_addthis]             = 0
+settings[main_menu_nice_menus]        = 0
+settings[nice_menus_depth]            = -1
+settings[extended_menu_items]         = 0
+settings[openberkeley_newsarchive]    = 0
+settings[openberkeley_faq]            = 0
 
 ; To make this sub-theme an admin theme with shortcut links next to titles,
 ; uncomment the line below.

@@ -198,7 +198,7 @@ function berkeley_preprocess_page(&$variables, $hook) {
 
   // If Quick Links is enabled but Javascript is disabled, link to node provided in theme setting
   if (theme_get_setting('include_quick_links')) {
-    $css = "#secondary-menu {right: 228px;}";
+    $css = "#secondary-menu, .lt-ie9 #secondary-menu {right: 228px;}";
     drupal_add_css($css, $options);
     $variables['quicklinks_link'] = t('<a href="@href" id="quick-links">Quick Links</a>', array(
       '@href'   => $site_path . theme_get_setting('quicklinks_link'),
