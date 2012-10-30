@@ -30,6 +30,10 @@
     float: left;
   }
 
+  .lt-ie9 .kauai-sidebar {
+    width: 30.915%;
+  }
+
   .kauai-main {
     width: 68.085%;
     float: left;
