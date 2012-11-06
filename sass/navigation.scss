@@ -430,6 +430,9 @@ li a.active {
  */
 
 .sidebars {
+  a {
+    color: $font-base-color;
+  }
   font-size: .85em;
   .block-menu,
   .block-menu-block {
