@@ -514,13 +514,16 @@ form {
  */
 
 fieldset {
-  border-color: #c0c0c0;
+  border: $border-solid-med-grey;
   margin: 0 2px;
-  /* Apply borders and padding that keep the vertical rhythm. */
+  /* Below causes fieldset issues in Chrome -- do not use
+   * Apply borders and padding that keep the vertical rhythm.
+  border-color: #c0c0c0;
   @include apply-side-rhythm-border(top,    $width: 1px, $lines: 0.35);
   @include apply-side-rhythm-border(bottom, $width: 1px, $lines: 0.65);
   @include apply-side-rhythm-border(left,  $width: 1px, $lines: 0.65);
   @include apply-side-rhythm-border(right, $width: 1px, $lines: 0.65);
+  */
 }
 
 /*
