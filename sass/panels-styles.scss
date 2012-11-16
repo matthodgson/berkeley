@@ -8,7 +8,7 @@
 /* Fieldable Panel Panes */
 .fieldable-panels-pane{
   overflow: hidden; //Hide overflow or will spill out of panels
-  padding: 2px 10px 20px 8px;
+  padding: 2px 10px 0px 8px;
 }
 
 /* Pane Content */
@@ -192,7 +192,18 @@
 
 @media only screen and (max-width: 960px) {
 
-  /* Geary layout */
+ /* Moscone Flipped Layout */
+  .moscone-flipped-sidebar,
+  .moscone-flipped-content {
+    width: 100%;
+    float: none;
+  }
+
+  .moscone-flipped-content-inner {
+    margin-right: 0;
+  }
+
+ /* Geary layout */
   .geary-column-content-region,
   .geary-column3 {
     width: 100%;
