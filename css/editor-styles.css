@@ -19,19 +19,19 @@
 /* 12px */
 /* 10.5px */
 /* Image positioning */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/editor-styles\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/editor-styles\.scss}line{font-family:\0000315}}
 .image-right {
   float: right;
   margin-left: 10px !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/editor-styles\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/editor-styles\.scss}line{font-family:\0000319}}
 .image-left {
   float: left;
   margin-right: 10px !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/editor-styles\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/editor-styles\.scss}line{font-family:\0000323}}
 .image-center {
   display: block !important;
   margin: auto !important;

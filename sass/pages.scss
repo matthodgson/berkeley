@@ -246,6 +246,20 @@ h2.comment-form { /* Comment form heading */
 .image-left {float: left; margin-right: 10px !important;}
 .image-center {display: block !important; margin: auto !important;}
 
+img {
+  &[style="float:left"] {
+    margin-right: 10px;
+  }
+  &[style="float:right"] {
+    margin-left: 10px;
+  }
+}
+
+/* Wysiwyg editing */
+body#tinymce img {
+  padding: 0 10px !important;
+}
+
 /* Text tweaking */
 .text-center {
   text-align: center;

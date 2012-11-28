@@ -18,36 +18,23 @@
 /* 10.5px */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_newsarchive\.scss}line{font-family:\0000312}}
 .view-news-archive .views-row {
-  border-bottom: 1px solid #cccccc;
+  padding: 5px 0;
+  border-bottom: 1px dotted #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_newsarchive\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_newsarchive\.scss}line{font-family:\0000317}}
 .view-news-archive .views-field-field-publication-date,
 .view-news-archive .views-field-field-source {
   color: #003461;
   font-size: 0.8em;
   font-style: italic;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_newsarchive\.scss}line{font-family:\0000321}}
-.view-news-archive .views-field-title {
-  padding-top: 10px;
-}
-
-/* Content Pane 1 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_newsarchive\.scss}line{font-family:\0000328}}
-.view-display-id-panel_pane_1 .views-row {
-  padding: 5px 0;
-  border-bottom: 1px dotted #cccccc;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_newsarchive\.scss}line{font-family:\0000332}}
-.view-display-id-panel_pane_1 .views-field-field-publication-date {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_newsarchive\.scss}line{font-family:\0000335}}
-.view-display-id-panel_pane_1 .views-field-title {
-  padding-top: 0px !important;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_newsarchive\.scss}line{font-family:\0000323}}
+.view-news-archive .views-field-title {
+  padding-top: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_newsarchive\.scss}line{font-family:\0000338}}
-.view-display-id-panel_pane_1 .more-link {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/klu\/github\/berkeley-7\.x\/sass\/openberkeley\/openberkeley_newsarchive\.scss}line{font-family:\0000326}}
+.view-news-archive .more-link {
   font-size: .85em;
   padding-top: 5px;
 }
