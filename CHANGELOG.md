@@ -1,5 +1,21 @@
 Berkeley Theme - CHANGELOG.md
 
+Berkeley 7.x-1.0-alpha6, 2012-11-30
+------------------------------------
+- Wysiwyg image alignment (OPENUCB-16)
+- Image styling for responsive layouts
+- Open Berkeley News Archive styling (DUPCODE-67)
+- Panel styles - Moscone (DUPCODE-57 and DUPCODE-82)
+- Fieldset styling (DUPCODE-61)
+- Styles for admin links (DUPCODE-69)
+- Panel styles - Kauai (DUPCODE-57)
+- IE8/IE7 tweaks; disable respond.js in default theme
+- Default styling for FAQ modules - optional classes (DUPCODE-51)
+- Panel styles - Brenham Flipped, Burr Flipped, Geary (DUPCODE-57)
+- Tweak media queries for main menu overflow (DUPCODE-44)
+- Tweak heading styles (DUPCODE-49)
+- IE8/IE7 Fix for Site Name and Parent Org(DUPCODE-71)
+
 Berkeley 7.x-1.0-alpha5, 2012-10-10
 ------------------------------------
 - FAQ links (DUPCODE-51)
