@@ -9,8 +9,25 @@
 @import "base";
 
 .view-news-archive {
+  .view-content {
+    //Add clearfix rules to make sure floats are cleared
+    //See http://www.positioniseverything.net/easyclearing.html
+    //Could also add "clearfix" class to element
+    .field-content:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+    }
+  }
+  h3 {
+    font-size: 1em;
+    text-transform: none;
+    margin: 0.5em 0 0;
+  }
   .views-row {
-    padding: 5px 0;
+    padding: 5px 20px;
     border-bottom: $border-dotted-med-grey;
   }
   .views-field-field-publication-date,
@@ -28,4 +45,25 @@
     padding-top: 5px;
   }
 }
+
+.pane-news-archive-panel-pane-1 {
+  .view-news-archive {
+    .views-row {
+      padding: 5px 0;
+  }
+  }
+}
+
+.node-news-item {
+  .field-type-datetime {
+    color: $berkeley-dark-blue;
+    font-size: 0.8em;
+    font-style: italic;
+    float: right;
+  }
+  .field-name-body {
+    clear: both;
+  }
+}
+
 
