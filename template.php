@@ -9,6 +9,15 @@
  */
  function berkeley_form_alter(&$form, &$form_state, $form_id) {
 
+  //Changes to FAQ form
+  if (module_exists('faq') && $form_id == 'faq_node_form') {
+    // Detailed question description
+    $form['title']['#description'] = t('Question to be answered. This will appear in all question listings.');
+    $form['detailed_question']['#title'] = t('Question (Long Form) - Optional');
+    $form['detailed_question']['#description'] = t('Optional. If you have a long question, indicate a short name above
+     and use this field instead for the full question.');
+  }
+
   // Add default text to the search block form
   if ($form_id == 'search_block_form') {
     // HTML5 placeholder attribute
