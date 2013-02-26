@@ -425,7 +425,7 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
     '#type' => 'fieldset',
     '#title' => t('Open Berkeley'),
     '#collapsible' => TRUE,
-    '#collapsed' => FALSE,
+    '#collapsed' => TRUE,
     '#description'   => t('This theme is designed to work with the Open Berkeley distribution.
                            For more information about Open Berkeley, contact <a href="@href">IST Drupal</a>.
                            Check the appropriate items below to apply standard styling.',

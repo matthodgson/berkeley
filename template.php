@@ -51,7 +51,7 @@
         '#type'         => 'fieldset',
         '#title'        => t('Berkeley with Nice Menus'),
         '#collapsible'  => TRUE,
-        '#collapsed'    => FALSE,
+        '#collapsed'    => TRUE,
       );
 
       $form['berkeley_nice_menus']['main_menu_nice_menus'] = array(
