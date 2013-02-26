@@ -400,6 +400,22 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
     '#default_value' => theme_get_setting('extended_menu_items'),
   );
 
+  // Extended Site Name
+  $form['berkeley_settings']['extended_sitename'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('Extended Site Name'),
+    '#collapsible' => TRUE,
+    '#collapsed' => FALSE,
+    '#description'   => t('If you are using a long Site Name (e.g., more than 35 characters), check the following box.'),
+  );
+
+  //Optional Extended Main Menu Items
+  $form['berkeley_settings']['extended_sitename']['long_sitename'] = array(
+    '#type'          => 'checkbox',
+    '#title'         => t('Use a long site name'),
+    '#default_value' => theme_get_setting('long_sitename'),
+  );
+
   /**
    * Options for Open Berkeley
    */

@@ -339,6 +339,13 @@ function berkeley_preprocess_page(&$variables, $hook) {
     drupal_add_css($css_file, array('group' => CSS_THEME));
   }
 
+  // Adjust styling if long sitename is checked
+  if (theme_get_setting('long_sitename')) {
+    //Build path to css
+    $css_file = drupal_get_path('theme', 'berkeley') . '/css/long_sitename.css';
+    drupal_add_css($css_file, array('group' => CSS_THEME));
+  }
+
   /**
    * Open Berkeley styling
    */
