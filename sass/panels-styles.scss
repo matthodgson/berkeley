@@ -108,7 +108,7 @@
       text-decoration: underline;
     }
   }
-      p,
+    p,
     pre {
     /* Reset p and pre margins if under a heading */
     margin: 0 0 1.5em;
@@ -152,7 +152,7 @@
 }
 
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 680px) {  //Media Query: 0px to 680px
 
   /* Bryant Flipped Layout */
   .bryant-flipped-sidebar,
@@ -202,7 +202,7 @@
 
 } //End Media Query: 0px to 680px
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 960px) {  //Media Query: 0px to 960px
 
  /* Moscone Flipped Layout */
   .moscone-flipped-sidebar,
@@ -229,7 +229,7 @@
 
 
 
-/* Panel Styles */ //Consider as panel style
+/* Additional Panel Styles */ //Consider as panel style
 .panels-dashboard,
 .page-admin-build-panels,
 .page-admin-build-panels-dashboard #content-area {
@@ -261,6 +261,14 @@ ul.quicktabs-tabs.quicktabs-style-zen li {
   }
 }
 
+/* Pane Content - Image without border */
+
+.pane-content img, .node img {
+  &.img-no-border {
+    border: none;
+    background-color: transparent;
+  }
+}
 
 
 
