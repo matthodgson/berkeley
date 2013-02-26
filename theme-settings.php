@@ -110,7 +110,7 @@ function berkeley_form_system_theme_settings_alter(&$form, &$form_state, $form_i
     '#type' => 'fieldset',
     '#title' => t('Font Handling'),
     '#collapsible' => TRUE,
-    '#collapsed' => FALSE,
+    '#collapsed' => TRUE,
   );
 
   // Font Handling - adapted from http://drupal.org/project/mayo
