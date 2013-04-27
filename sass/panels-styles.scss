@@ -9,6 +9,10 @@
 .fieldable-panels-pane{
   overflow: hidden; //Hide overflow or will spill out of panels
   padding: 2px 10px 0px 8px;
+  ul {
+    margin: 0 0 1.5em;
+    padding: 0 0 0 2em;
+  }
 }
 
 /* Pane Content */
@@ -21,10 +25,8 @@
 
   .field-type-text-with-summary
     ul:first-child {
-      padding: 0;
+      padding: 0 0 0 2em;
       li {
-        list-style: inside;
-
         &.markItUpButton {
           list-style: none;
         }
@@ -152,7 +154,7 @@
 }
 
 
-@media only screen and (max-width: 680px) {  //Media Query: 0px to 680px
+@media only screen and (max-width: 768px) {  //Media Query: 0px to 768px
 
   /* Bryant Flipped Layout */
   .bryant-flipped-sidebar,
@@ -176,17 +178,7 @@
     margin-right: 0;
   }
 
-  /* Burr Flipped Layout */
-  .burr-flipped-content,
-  .burr-flipped-sidebar {
-    width: 100%;
-    float: none;
-  }
-
-  .burr-flipped-content-inner {
-    margin-right: 0;
-  }
-
+  /* Hewston Layout */
   .hewston-slider,
   .hewston-slider-gutter,
   .hewston-middle-region,
@@ -200,7 +192,18 @@
     margin-right: 0;
   }
 
-} //End Media Query: 0px to 680px
+  /* Sutro Layout */
+  .sutro-column,
+  .sutro-column2 {
+    width: 100%;
+    float: none;
+  }
+
+  .sutro-column-inner {
+    margin-right: 0;
+  }
+
+} //End Media Query: 0px to 768px
 
 @media only screen and (max-width: 960px) {  //Media Query: 0px to 960px
 
@@ -225,6 +228,31 @@
   .geary-column-content-region-inner {
     margin-right: 0;
   }
+
+ /* Selby layout */
+  .selby-column,
+  .selby-content-container,
+  .selby-content-container .selby-column,
+  .selby-content-container .selby-content-column2 {
+    width: 100%;
+    float: none;
+  }
+
+  .selby-column-inner {
+    margin-right: 0;
+  }
+
+/* Burr Flipped Layout */
+  .burr-flipped-content,
+  .burr-flipped-sidebar {
+    width: 100%;
+    float: none;
+  }
+
+  .burr-flipped-content-inner {
+    margin-right: 0;
+  }
+
 } //End Media Query: 0px to 960px
 
 
