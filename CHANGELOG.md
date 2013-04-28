@@ -1,5 +1,19 @@
 Berkeley Theme - CHANGELOG.md
 
+Berkeley 7.x-1.0-alpha7, 2013-04-27
+------------------------------------
+- Adjustments to panel layouts - use iPad 768px breakpoint
+- Added or adjusted media queries for panel layouts - selby, sutro, burr flipped
+- Fixed styling issue with ul in fieldable panel panes
+- Collapse Open Berkeley and Nice Menu fieldsets
+- Add styling option for long site names
+- Collapse Font Handling fieldset
+- Panel styles - pane content image without border
+- Panel style - Hewston (DUPCODE-57)
+- Updated newsarchive styling (OPENUCB-47)
+- FAQ hook_form_alter in berkeley theme (OPENUCB-51)
+- Minify theme as default
+
 Berkeley 7.x-1.0-alpha6, 2012-11-30
 ------------------------------------
 - Wysiwyg image alignment (OPENUCB-16)
