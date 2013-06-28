@@ -203,6 +203,21 @@
     margin-right: 0;
   }
 
+  /* Bartlett Flipped Layout */
+  .bartlett-flipped-column,
+  .bartlett-flipped-content-container,
+  .bartlett-flipped .bartlett-flipped-sidebar,
+  .bartlett-flipped-content-container .bartlett-flipped-content-column1,
+  .bartlett-flipped-content-container .bartlett-flipped-content-column2 {
+    width: 100%;
+    float: none;
+  }
+
+  .bartlett-flipped-column-inner,
+  .bartlett-flipped-content-container-inner {
+    margin-right: 0;
+  }
+
 } //End Media Query: 0px to 768px
 
 @media only screen and (max-width: 960px) {  //Media Query: 0px to 960px
